@@ -12,13 +12,39 @@ body {
     font-weight: 400;
 }
 
-#logo-container {
-    float: left;
-    width: 600px;
-    /* height: 400px; */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-#logo-container img {
+/* logo */
+
+.logo-container {
+    /* float: left; */
+    width: 500px;
+}
+
+.logo-container img {
     max-width: 100%;
     height: auto;
+}
+
+/* navigation menu links */
+
+.menu {
+    font-size: 180%;
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    /* line-height: inherit; */
+}
+
+.menu a {
+    text-decoration: none;
 }
