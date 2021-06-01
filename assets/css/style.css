@@ -17,12 +17,12 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
+    background-color: rgba(169, 169, 169, 0.7)
 }
 
 /* logo */
 
 .logo-container {
-    /* float: left; */
     width: 500px;
 }
 
@@ -35,16 +35,20 @@ header {
 
 .menu {
     font-size: 180%;
-    text-align: right;
 }
 
 .menu li {
     display: inline-block;
     list-style-type: none;
     margin-right: 30px;
-    /* line-height: inherit; */
 }
 
 .menu a {
     text-decoration: none;
+}
+
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+    opacity: .5;
 }
