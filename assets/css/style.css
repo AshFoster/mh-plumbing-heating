@@ -17,7 +17,7 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    background-color: rgba(169, 169, 169, 0.7)
+    background-color: rgba(169, 169, 169, 0.5)
 }
 
 /* logo */
@@ -47,8 +47,18 @@ header {
     text-decoration: none;
 }
 
+/* hero image */
+
+.hero-image-container {
+    background-color: black;
+    /* opacity: .5; */
+    /* height: 600px;
+    width: 100%; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.5)), url('../images/hero-image.jpg') no-repeat center center; */
+    /* opacity: .5; */
+}
+
 .hero-image {
     width: 100%;
-    object-fit: cover;
     opacity: .5;
 }
