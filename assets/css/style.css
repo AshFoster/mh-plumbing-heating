@@ -50,15 +50,12 @@ header {
 /* hero image */
 
 .hero-image-container {
+    border: none;
     background-color: black;
-    /* opacity: .5; */
-    /* height: 600px;
-    width: 100%; */
-    /* background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.5)), url('../images/hero-image.jpg') no-repeat center center; */
-    /* opacity: .5; */
 }
 
 .hero-image {
-    width: 100%;
-    opacity: .5;
+    display: block;
+    max-width: 100%;
+    opacity: .4;
 }
