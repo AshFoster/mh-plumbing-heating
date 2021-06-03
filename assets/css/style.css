@@ -71,7 +71,7 @@ header {
     width: 70%;
 }
 
-nav {
+.menu {
     position: absolute;
     text-align: right;
     top: 100%;
@@ -80,18 +80,16 @@ nav {
     width: 100%;
 }
 
-nav ul {
+.menu ul {
     list-style: none;
 }
 
-nav li {
-    margin-bottom: .8em;
-    margin-right: .8em;
+.menu li {
+    margin: 0 10px 10px 0;
 }
 
-nav a {
+.menu a {
     color: black;
     text-decoration: none;
-    font-size: 1rem;
     text-transform: uppercase;
 }
