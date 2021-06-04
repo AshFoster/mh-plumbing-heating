@@ -124,15 +124,14 @@ header {
 /* hero image */
 
 .hero-image-container {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
+    border: none;
+    background-color: black;
 }
 
 .hero-image {
-    height: 500px;
+    height: 80vh;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image-small.jpg') center center;
+    background-size: cover;
+    opacity: .5;
 }
