@@ -61,6 +61,29 @@ body {
 
 /* header, logo, and menu */
 
+h2 {
+    position: absolute;
+    top: 28vw;
+    z-index: 1;
+    color: #fff;
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    position: absolute;
+    top: 82vw;
+    z-index: 1;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+
 header {
     background-color: #cccccc;
     text-align: center;
@@ -135,3 +158,4 @@ header {
     background-size: cover;
     opacity: .5;
 }
+
