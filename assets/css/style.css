@@ -62,7 +62,7 @@ body {
 /* header, logo, and menu */
 
 header {
-    background-color: #a9a9a9;
+    background-color: #cccccc;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -73,7 +73,7 @@ header {
 .logo, 
 .menu-toggle-icon {
     display: inline-block;
-    vertical-align: middle;   
+    vertical-align: middle; 
 }
 
 .logo {
@@ -82,7 +82,7 @@ header {
 
 .menu-toggle-icon {
     margin-left: 8vw;
-    font-size: 8vw;
+    font-size: 6vw;
 }
 
 .menu-toggle {
@@ -94,7 +94,7 @@ header {
     text-align: right;
     top: 100%;
     right: 0;
-    background-color: #a9a9a9;
+    background-color: #cccccc;
     width: 100%;
     display: none;
 }
@@ -108,12 +108,31 @@ header {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
 }
 
 .menu a:hover {
-    color: blue;
+    color:#0683c0;
 }
 
 .menu-toggle:checked ~ .menu {
     display: block;
+}
+
+/* hero image */
+
+.hero-image-container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 }
