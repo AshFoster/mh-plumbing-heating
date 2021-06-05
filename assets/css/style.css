@@ -61,29 +61,6 @@ body {
 
 /* header, logo, and menu */
 
-h2 {
-    position: absolute;
-    top: 28vw;
-    z-index: 1;
-    color: #fff;
-    font-size: 3.2rem;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-p {
-    position: absolute;
-    top: 82vw;
-    z-index: 1;
-    color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 10px;
-    font-weight: 400;
-}
-
 header {
     background-color: #cccccc;
     text-align: center;
@@ -149,6 +126,7 @@ header {
 .hero-image-container {
     border: none;
     background-color: black;
+    text-align: center;
 }
 
 .hero-image {
@@ -157,5 +135,46 @@ header {
     background: url('../images/hero-image-small.jpg') center center;
     background-size: cover;
     opacity: .5;
+}
+
+.hero-image-container h2 {
+    position: absolute;
+    top: 28vw;
+    z-index: 1;
+    color: #fff;
+    font-size: 14vw;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.hero-image-container p {
+    position: absolute;
+    top: 82vw;
+    z-index: 1;
+    color: #fff;
+    font-size: 5vw;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.landing-page-button {
+    position: absolute;
+    top: 105vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    z-index: 1;
+    color: #fff;
+    background-color: #0683c0;
+    text-decoration: none;
+    font-size: 6vw;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
 }
 
