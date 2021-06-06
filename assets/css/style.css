@@ -77,12 +77,13 @@ header {
 }
 
 .logo {
-    width: 70%;
+    width: 200px;
 }
 
 .menu-toggle-icon {
     margin-left: 8vw;
-    font-size: 6vw;
+    /* font-size: 6vw; */
+    font-size: 1.8em;
 }
 
 .menu-toggle {
@@ -123,58 +124,188 @@ header {
 
 /* hero image */
 
-.hero-image-container {
+.home {
     border: none;
     background-color: black;
     text-align: center;
 }
 
 .hero-image {
-    height: 80vh;
+    height: 500px;
     width: 100%;
-    background: url('../images/hero-image-small.jpg') center center;
+    background: url('../images/hero-image-small.jpg') no-repeat center center;
     background-size: cover;
     opacity: .5;
 }
 
-.hero-image-container h2 {
+.home h2 {
     position: absolute;
-    top: 28vw;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
     z-index: 1;
     color: #fff;
-    font-size: 14vw;
-    padding: 10px;
+    font-size: 2.5em;
+    padding: 0 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-.hero-image-container p {
+.home p {
     position: absolute;
-    top: 82vw;
+    top: 230px;
+    left: 0;
+    right: 0;
+    margin: auto;
     z-index: 1;
     color: #fff;
-    font-size: 5vw;
+    font-size: 1.4em;
     padding: 10px;
     font-weight: 400;
 }
 
 .landing-page-button {
     position: absolute;
-    top: 105vw;
+    top: 380px;
     left: 0;
     right: 0;
     margin: auto;
-    width: 80%;
+    width: 60%;
     border-right: 5px solid #000;
     border-bottom: 5px solid #000;
     z-index: 1;
     color: #fff;
     background-color: #0683c0;
     text-decoration: none;
-    font-size: 6vw;
+    font-size: 1.4em;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: 400;
     padding: 10px;
 }
 
+/* Media queries */
+
+/* For smaller screen sizes with minimum aspect ratio of 320/475 - unlikely scenario but good to cater for it */
+
+@media screen and (min-aspect-ratio: 320/475) {
+    .hero-image {
+        height: 400px;
+    }
+
+    .home h2 {
+        top: 80px;
+        font-size: 2.4em;
+    }
+    
+    .home p {
+        top: 180px;
+        font-size: 1.3em;
+    }
+    
+    .landing-page-button {
+        top: 300px;
+        font-size: 1.3em;
+    }  
+}
+
+/* For smaller screen sizes with minimum aspect ratio of 568/320 - mainly for small phones in landscape mode */
+
+@media screen and (min-aspect-ratio: 568/320) {
+    .hero-image {
+        height: 300px;
+    }
+
+    .home h2 {
+        top: 75px;
+        font-size: 2.4em;
+    }
+    
+    .home p {
+        top: 146px;
+        font-size: 1.4em;
+    }
+    
+    .landing-page-button {
+        top: 230px;
+        font-size: 1.4em;
+    }  
+}
+
+/* For medium screen sizes with minimum aspect ratio of 3/4 - mainly for ipads in portrait mode */
+
+@media screen and (min-width: 750px) and (min-aspect-ratio: 3/4) {
+    .logo {
+        width: 300px;
+    }
+
+    .hero-image {
+        height: 800px;
+    }
+
+    .home h2 {
+        top: 110px;
+        font-size: 4.4em;
+    }
+    
+    .home p {
+        top: 370px;
+        font-size: 2.4em;
+    }
+    
+    .landing-page-button {
+        top: 580px;
+        font-size: 2.4em;
+    }  
+}
+
+/* For medium screen sizes from 900px wide and up*/
+
+@media screen and (min-width: 900px) {
+    .logo {
+        width: 350px;
+    }
+
+    .hero-image {
+        height: 790px;
+        /* background: url('../images/hero-image.jpg') no-repeat center center;
+        background-size: none; */
+    }
+
+    .home h2 {
+        top: 150px;
+        font-size: 4.4em;
+    }
+    
+    .home p {
+        top: 385px;
+        font-size: 2.4em;
+    }
+    
+    .landing-page-button {
+        top: 595px;
+        font-size: 2.4em;
+    } 
+}
+
+/* For medium to large screen sizes from 1080px wide and up*/
+
+/* @media screen and (min-width: 1080px) {
+    .home h2 {
+        font-size: 7vw;
+    }
+    
+    .home p {
+        top: 38vw;
+        font-size: 2.5vw;
+    }
+    
+    .landing-page-button {
+        top: 51vw;
+        font-size: 3vw;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }  
+} */
