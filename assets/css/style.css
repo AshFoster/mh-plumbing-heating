@@ -233,9 +233,9 @@ header {
     }  
 }
 
-/* For medium screen sizes with minimum aspect ratio of 3/4 - mainly for ipads in portrait mode */
+/* For medium screen sizes with a minimum width of 750px and a maximum aspect ratio of 3/4 - mainly for ipads in portrait mode */
 
-@media screen and (min-width: 750px) and (min-aspect-ratio: 3/4) {
+@media screen and (min-width: 750px) and (max-aspect-ratio: 3/4) {
     .logo {
         width: 300px;
     }
@@ -289,23 +289,29 @@ header {
     } 
 }
 
-/* For medium to large screen sizes from 1080px wide and up*/
+/* For larger screen sizes from 1080px wide and up*/
 
-/* @media screen and (min-width: 1080px) {
-    .home h2 {
-        font-size: 7vw;
+@media screen and (min-width: 1080px) {
+    .logo {
+        width: 500px;
     }
-    
-    .home p {
-        top: 38vw;
-        font-size: 2.5vw;
+
+    .menu-toggle-icon {
+        display: none; 
     }
-    
-    .landing-page-button {
-        top: 51vw;
-        font-size: 3vw;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }  
-} */
+
+    .menu {
+        position: static;
+        display: inline-block;
+        float: right;
+        margin-top: 45px;
+        width: 50%;
+    }
+
+    .menu li {
+        display: inline-block;
+        font-size: 180%;
+        list-style-type: none;
+        margin-left: 20px;
+    }
+}
