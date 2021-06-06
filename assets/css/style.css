@@ -12,53 +12,6 @@ body {
     font-weight: 400;
 }
 
-/* header {
-    padding: 20px 140px;
-    background-color: rgba(169, 169, 169, 0.5)
-} */
-
-/* logo */
-
-/* .logo-container {
-    display: inline-block;
-    width: 500px;
-}
-
-.logo-container img {
-    max-width: 100%;
-} */
-
-/* navigation menu */
-
-/* .menu {
-    float: right;
-    margin-top: 45px;
-}
-
-.menu li {
-    display: inline-block;
-    font-size: 180%;
-    list-style-type: none;
-    margin-left: 30px;
-}
-
-.menu a {
-    text-decoration: none;
-} */
-
-/* hero image */
-
-/* .hero-image-container {
-    border: none;
-    background-color: black;
-}
-
-.hero-image {
-    display: block;
-    max-width: 100%;
-    opacity: .4;
-} */
-
 /* header, logo, and menu */
 
 header {
@@ -70,20 +23,16 @@ header {
     padding: 10px;
 }
 
-.logo, 
-.menu-toggle-icon {
-    display: inline-block;
-    vertical-align: middle; 
-}
-
 .logo {
+    float: left;
     width: 200px;
+    margin-left: 20px;
 }
 
 .menu-toggle-icon {
-    margin-left: 8vw;
-    /* font-size: 6vw; */
-    font-size: 1.8em;
+    float: right;
+    font-size: 1.8rem;
+    margin: 8px 20px 0 0;
 }
 
 .menu-toggle {
@@ -102,7 +51,7 @@ header {
 
 .menu li {
     list-style-type: none;
-    margin: 0 10px 10px 0;
+    margin: 0 20px 10px 0;
 }
 
 .menu a {
@@ -110,7 +59,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 1.2rem;
 }
 
@@ -146,7 +95,7 @@ header {
     margin: auto;
     z-index: 1;
     color: #fff;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     padding: 0 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -160,7 +109,7 @@ header {
     margin: auto;
     z-index: 1;
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     padding: 10px;
     font-weight: 400;
 }
@@ -178,7 +127,7 @@ header {
     color: #fff;
     background-color: #0683c0;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: 400;
@@ -196,40 +145,50 @@ header {
 
     .home h2 {
         top: 80px;
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }
     
     .home p {
         top: 180px;
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
     
     .landing-page-button {
         top: 300px;
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }  
 }
 
 /* For smaller screen sizes with minimum aspect ratio of 568/320 - mainly for small phones in landscape mode */
 
 @media screen and (min-aspect-ratio: 568/320) {
+    /* .logo {
+        float: left;
+        margin: 0 10px 0;
+    }
+
+    .menu-toggle-icon {
+        float: right;
+        margin: 0 10px 0;
+    } */
+
     .hero-image {
         height: 300px;
     }
 
     .home h2 {
         top: 75px;
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }
     
     .home p {
         top: 146px;
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
     
     .landing-page-button {
         top: 230px;
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }  
 }
 
@@ -246,17 +205,17 @@ header {
 
     .home h2 {
         top: 110px;
-        font-size: 4.4em;
+        font-size: 4.4rem;
     }
     
     .home p {
         top: 370px;
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }
     
     .landing-page-button {
         top: 580px;
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }  
 }
 
@@ -267,6 +226,10 @@ header {
         width: 350px;
     }
 
+    .menu-toggle-icon {
+        margin-top: 25px;
+    }
+
     .hero-image {
         height: 790px;
         /* background: url('../images/hero-image.jpg') no-repeat center center;
@@ -275,25 +238,25 @@ header {
 
     .home h2 {
         top: 150px;
-        font-size: 4.4em;
+        font-size: 4.4rem;
     }
     
     .home p {
         top: 385px;
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }
     
     .landing-page-button {
         top: 595px;
-        font-size: 2.4em;
+        font-size: 2.4rem;
     } 
 }
 
-/* For larger screen sizes from 1080px wide and up*/
+/* For larger screen sizes from 1110px wide and up*/
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1110px) {
     .logo {
-        width: 500px;
+        width: 325px;
     }
 
     .menu-toggle-icon {
@@ -302,16 +265,16 @@ header {
 
     .menu {
         position: static;
-        display: inline-block;
+        display: block;
         float: right;
-        margin-top: 45px;
-        width: 50%;
+        margin-top: 27px;
+        width: 65%;
     }
 
     .menu li {
         display: inline-block;
         font-size: 180%;
         list-style-type: none;
-        margin-left: 20px;
+        margin-left: 5px;
     }
 }
