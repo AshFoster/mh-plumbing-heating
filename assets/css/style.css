@@ -59,7 +59,6 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    /* padding: 10px; */
     font-size: 1.2rem;
 }
 
@@ -71,7 +70,7 @@ header {
     display: block;
 }
 
-/* hero image */
+/* home page and hero image */
 
 .home {
     border: none;
@@ -96,7 +95,7 @@ header {
     z-index: 1;
     color: #fff;
     font-size: 2.5rem;
-    padding: 0 10px;
+    padding: 0 .45em;;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -110,7 +109,7 @@ header {
     z-index: 1;
     color: #fff;
     font-size: 1.4rem;
-    padding: 10px;
+    padding: .45em;;
     font-weight: 400;
 }
 
@@ -121,8 +120,8 @@ header {
     right: 0;
     margin: auto;
     width: 60%;
-    border-right: 5px solid #000;
-    border-bottom: 5px solid #000;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
     z-index: 1;
     color: #fff;
     background-color: #0683c0;
@@ -131,7 +130,7 @@ header {
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: 400;
-    padding: 10px;
+    padding: .45em;
 }
 
 /* Media queries */
@@ -162,16 +161,6 @@ header {
 /* For smaller screen sizes with minimum aspect ratio of 568/320 - mainly for small phones in landscape mode */
 
 @media screen and (min-aspect-ratio: 568/320) {
-    /* .logo {
-        float: left;
-        margin: 0 10px 0;
-    }
-
-    .menu-toggle-icon {
-        float: right;
-        margin: 0 10px 0;
-    } */
-
     .hero-image {
         height: 300px;
     }
@@ -197,6 +186,10 @@ header {
 @media screen and (min-width: 750px) and (max-aspect-ratio: 3/4) {
     .logo {
         width: 300px;
+    }
+
+    .menu-toggle-icon {
+        margin-top: 20px;
     }
 
     .hero-image {
@@ -232,8 +225,6 @@ header {
 
     .hero-image {
         height: 790px;
-        /* background: url('../images/hero-image.jpg') no-repeat center center;
-        background-size: none; */
     }
 
     .home h2 {
@@ -276,5 +267,10 @@ header {
         font-size: 180%;
         list-style-type: none;
         margin-left: 5px;
+    }
+
+    .hero-image {
+        background: url('../images/hero-image-wide.jpg') no-repeat center center;
+        background-size: cover;
     }
 }
