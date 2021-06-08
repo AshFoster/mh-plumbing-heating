@@ -94,7 +94,7 @@ header {
     right: 0;
     margin: auto;
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     padding: 0 .45em;;
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
@@ -108,7 +108,7 @@ header {
     right: 0;
     margin: auto;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: .45em;;
     font-weight: 400;
 }
@@ -125,7 +125,7 @@ header {
     color: #fff;
     background-color: #0683c0;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: 400;
@@ -178,36 +178,33 @@ header {
 
 /* For smaller screen sizes with maximum width of 700px and maximum height of 530px - unlikely scenario but good to cater for it */
 
-@media screen and (max-width: 700px) and (max-height: 530px) {
+@media screen and (min-width: 316px) and (max-height: 530px) {
     .hero-image {
         height: 400px;
     }
 
     .home h2 {
         top: 80px;
-        font-size: 2.4rem;
     }
     
     .home p {
         top: 180px;
-        font-size: 1.4rem;
     }
     
     .landing-page-button {
         top: 300px;
-        font-size: 1.4rem;
     }  
 }
 
 /* For smaller screen sizes with maximum width of 700px and maximum height of 430px */
 
-@media screen and (max-width: 700px) and (max-height: 430px) {
+@media screen and (min-width: 316px) and (max-height: 430px) {
     .hero-image {
-        height: 300px;
+        height: 340px;
     }
 
     .home h2 {
-        top: 75px;
+        top: 70px;
     }
     
     .home p {
@@ -215,7 +212,7 @@ header {
     }
     
     .landing-page-button {
-        top: 230px;
+        top: 250px;
     }  
 }
 
@@ -248,7 +245,7 @@ header {
         top: 580px;
         font-size: 2.4rem;
     }  
-
+}
 
 /* For medium screen sizes with a minimum width of 750px and a maximum aspect ratio of 3/4 - mainly for ipads in portrait mode */
 
