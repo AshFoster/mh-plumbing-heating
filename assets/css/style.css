@@ -134,7 +134,7 @@ header {
 
 /* Media queries */
 
-/* For very small screen sizes with maximum width of 320px */
+/* For very small screen sizes with maximum width of 315px */
 
 @media screen and (max-width: 315px) {
     .logo {
@@ -148,25 +148,37 @@ header {
         margin-right: 2vw;
     }
 
+    .menu li {
+        margin: 0 6vw 4vw 0;
+    }
+
+    .menu a {
+        font-size: 7vw;
+    }
+
+    .hero-image {
+        height: 200vw;
+    }
+
     .home h2 {
         top: 26vw;
-        font-size: 1.3rem;
+        font-size: 15vw;
     }
     
     .home p {
         top: 90vw;
-        font-size: 1rem;
+        font-size: 8vw;
     }
     
     .landing-page-button {
-        top: 180vw;
-        font-size: 1rem;
+        top: 150vw;
+        font-size: 8vw;
     }  
 }
 
-/* For smaller screen sizes with minimum aspect ratio of 320/475 - unlikely scenario but good to cater for it */
+/* For smaller screen sizes with maximum width of 700px and maximum height of 530px - unlikely scenario but good to cater for it */
 
-/* @media screen and (min-aspect-ratio: 320/475) {
+@media screen and (max-width: 700px) and (max-height: 530px) {
     .hero-image {
         height: 400px;
     }
@@ -178,41 +190,38 @@ header {
     
     .home p {
         top: 180px;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     
     .landing-page-button {
         top: 300px;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }  
-} */
+}
 
-/* For smaller screen sizes with minimum aspect ratio of 568/320 - mainly for small phones in landscape mode */
+/* For smaller screen sizes with maximum width of 700px and maximum height of 430px */
 
-@media screen and (min-aspect-ratio: 568/320) {
+@media screen and (max-width: 700px) and (max-height: 430px) {
     .hero-image {
         height: 300px;
     }
 
     .home h2 {
         top: 75px;
-        font-size: 2.4rem;
     }
     
     .home p {
         top: 146px;
-        font-size: 1.4rem;
     }
     
     .landing-page-button {
         top: 230px;
-        font-size: 1.4rem;
     }  
 }
 
-/* For medium screen sizes with a minimum width of 750px and a maximum aspect ratio of 3/4 - mainly for ipads in portrait mode */
+/* For medium screen sizes with a minimum width of 700px - mainly for ipads in portrait mode */
 
-@media screen and (min-width: 750px) and (max-aspect-ratio: 3/4) {
+@media screen and (min-width: 700px) {
     .logo {
         width: 300px;
     }
@@ -239,7 +248,38 @@ header {
         top: 580px;
         font-size: 2.4rem;
     }  
-}
+
+
+/* For medium screen sizes with a minimum width of 750px and a maximum aspect ratio of 3/4 - mainly for ipads in portrait mode */
+
+/* @media screen and (min-width: 750px) and (max-aspect-ratio: 3/4) {
+    .logo {
+        width: 300px;
+    }
+
+    .menu-toggle-icon {
+        margin-top: 20px;
+    }
+
+    .hero-image {
+        height: 800px;
+    }
+
+    .home h2 {
+        top: 110px;
+        font-size: 4.4rem;
+    }
+    
+    .home p {
+        top: 370px;
+        font-size: 2.4rem;
+    }
+    
+    .landing-page-button {
+        top: 580px;
+        font-size: 2.4rem;
+    }  
+} */
 
 /* For medium screen sizes from 900px wide and up*/
 
