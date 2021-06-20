@@ -173,6 +173,18 @@ header {
     font-size: 1rem;
 }
 
+/* Services section */
+
+.services {
+    background-color: #0683c0;
+    color: #fff;
+    padding: 1rem;
+}
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 /* Media queries */
 
 /* For very small screen sizes with maximum width of 315px */
