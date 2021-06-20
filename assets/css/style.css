@@ -112,12 +112,14 @@ header {
     top: 100px;
     color: #fff;
     font-size: 2.3rem;
+    text-shadow: .2rem .2rem #000;
 }
 
 .home p {
     top: 250px;
     color: #fff;
     font-size: 1.2rem;
+    text-shadow: .14rem .14rem #000;
 }
 
 .landing-page-button {
