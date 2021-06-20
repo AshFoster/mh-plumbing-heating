@@ -17,6 +17,8 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     /* font-family: 'Montserrat', sans-serif; */
+    text-align: center;
+    font-size: 2rem;
 }
 
 /* header, logo, and menu */
@@ -151,7 +153,6 @@ header {
     padding: 1rem;
 }
 
-.about-us h2,
 .about-us-container {
     text-align: center;
 }
@@ -165,10 +166,6 @@ header {
     min-width: 320px;
 }
 
-.about-us h2 {
-    font-size: 2rem;
-}
-
 .about-us p {
     font-size: 1rem;
 }
@@ -179,10 +176,14 @@ header {
     background-color: #0683c0;
     color: #fff;
     padding: 1rem;
-}
-.services h2 {
     text-align: center;
-    font-size: 2rem;
+}
+
+.left-list,
+.right-list {
+    display: inline-block;
+    margin: 2rem;
+    text-align: left;
 }
 
 /* Media queries */
