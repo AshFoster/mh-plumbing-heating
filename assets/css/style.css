@@ -13,6 +13,12 @@ body {
     font-weight: 400;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
 /* header, logo, and menu */
 
 header {
@@ -94,40 +100,35 @@ header {
     left: 0;
     right: 0;
     margin: auto;
-    font-weight: 400;
     animation-name: text-zoom;
     animation-duration: 1s;
     animation-fill-mode: alternate;
+    padding: .45em;
 }
 
 .home h2 {
     top: 100px;
     color: #fff;
     font-size: 2.3rem;
-    padding: .45em;
-    font-family: 'Roboto', sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .home p {
     top: 250px;
     color: #fff;
-    font-size: 1.3rem;
-    padding: .45em;
+    font-size: 1.2rem;
 }
 
 .landing-page-button {
     top: 380px;
-    width: 60%;
+    width: 40%;
     border-right: 3px solid #000;
     border-bottom: 3px solid #000;
     color: #fff;
     background-color: #0683c0;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border-radius: 5px;
     text-transform: uppercase;
-    padding: .45em;
 }
 
 @keyframes text-zoom {
@@ -155,7 +156,7 @@ header {
     text-align: center;
 }
 
-.about-us p,
+.about-us-paragraphs,
 .about-us-image {
     display: inline-block;
     width: 45%;
@@ -164,8 +165,12 @@ header {
     min-width: 320px;
 }
 
+.about-us h2 {
+    font-size: 2rem;
+}
+
 .about-us p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 /* Media queries */
@@ -208,7 +213,7 @@ header {
     
     .landing-page-button {
         top: 150vw;
-        font-size: 8vw;
+        font-size: 6vw;
     }  
 }
 
@@ -279,7 +284,7 @@ header {
     
     .landing-page-button {
         top: 450px;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }  
 }
 
