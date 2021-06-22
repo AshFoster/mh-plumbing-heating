@@ -13,17 +13,22 @@ It will have an immediate call to action in the form of requesting a call back. 
   - The navigation bar will always be visible to the user. It will have the company's logo shown on the left hand side which, when clicked, will return the user to the home/landing page. On the right hand side it will have links to the differnt sections of the site. It will be fully responsive showing a hamburger menu icon on smaller screens which, when clicked, will show/hide the list of the site's navigation links, whilst on larger screens the hamburger icon will dissapear and the site's navigation links will be shown as a horizontal list across the navigation bar.
   - The purpose of this section is to allow the user to easily navigate between the different parts of the site no matter which section they are currenlty viewing.
 
-  - __Home/Landing Page__
+- __Home/Landing Page__
 
   - The home/landing page will have a background image of a nicely done bathroom with an overlay of text and a button. Both will be eye catching, with the overall aim of immediately letting the user know what the site is about. The button will be a call to action which, when clicked, will take the user to the contact us form.
   - This section will be fully reponsive across all device sizes, and will always be shown in its entirety, so all of the text and the button will be immediately visible on all devices. N.B. I have yet to find a really efficient way of implementing this functionality with my current knowledge of HTML and CSS - I'm currently using many media queries which all need updating if the font size or font family, to name a few, are changed. Not ideal for future maintainability. 
 
-   - __About Us Section__
+- __About Us Section__
 
-   - The about us section will allow the user to find out more about the company itself, and its staff's previous experences. It will have some text describing this and will show an image of the company's van.
-   - This section is aimed at instilling confidence in the user which should encourage them to consider contacting the company to request some work.
+  - The about us section will allow the user to find out more about the company itself, and its staff's previous experences. It will have some text describing this and will show an image of the company's van.
+  - This section is aimed at instilling confidence in the user which should encourage them to consider contacting the company to request some work.
 
-   - __Services Section__
+- __Services Section__
 
-   - The services section will show the user which services the company has to offer. It will be a list of bullet points showing the types of services available.
-   - The aim of this section is to inform the user of the various services on offer so that they'll have a better idea of whether the company can offer them what they require or not.
+  - The services section will show the user which services the company has to offer. It will be a list of bullet points showing the types of services available.
+  - The aim of this section is to inform the user of the various services on offer so that they'll have a better idea of whether the company can offer them what they require or not.
+
+- __Testimonials Section__
+
+  - The testimonials section will allow the user the see what previous customers have to say about the work the compnay has done for them.
+  - The aim here is to further instil confidence in the user so that they're even more likely to contact the company and request some work. 
