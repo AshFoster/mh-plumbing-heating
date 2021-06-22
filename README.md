@@ -16,4 +16,9 @@ It will have an immediate call to action in the form of requesting a call back. 
   - __Home/Landing Page__
 
   - The home/landing page will have a background image of a nicely done bathroom with an overlay of text and a button. Both will be eye catching, with the overall aim of immediately letting the user know what the site is about. The button will be a call to action which, when clicked, will take the user to the contact us form.
-  - This section will be fully reponsive across all device sizes, and will always be shown in its entirety, so all of the text and the button will be immediately visible on all devices. N.B. I have yet to find a really efficient way of implementing this functionality with my current knowledge of HTML and CSS - I'm currently using many media queries which all need updating if the font size or font family, to name a few, are changed. Not ideal for future maintainability.  
+  - This section will be fully reponsive across all device sizes, and will always be shown in its entirety, so all of the text and the button will be immediately visible on all devices. N.B. I have yet to find a really efficient way of implementing this functionality with my current knowledge of HTML and CSS - I'm currently using many media queries which all need updating if the font size or font family, to name a few, are changed. Not ideal for future maintainability. 
+
+   - __About Us Section__
+
+   - The about us section will allow the user to find out more about the company itself, and its staff's previous experences. It will have some text describing this and will show an image of the company's van.
+   - This section is aimed at instilling confidence in the user which should encourage them to consider contacting the company to request some work.  
