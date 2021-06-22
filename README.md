@@ -21,4 +21,9 @@ It will have an immediate call to action in the form of requesting a call back. 
    - __About Us Section__
 
    - The about us section will allow the user to find out more about the company itself, and its staff's previous experences. It will have some text describing this and will show an image of the company's van.
-   - This section is aimed at instilling confidence in the user which should encourage them to consider contacting the company to request some work.  
+   - This section is aimed at instilling confidence in the user which should encourage them to consider contacting the company to request some work.
+
+   - __Services Section__
+
+   - The services section will show the user which services the company has to offer. It will be a list of bullet points showing the types of services available.
+   - The aim of this section is to inform the user of the various services on offer so that they'll have a better idea of whether the company can offer them what they require or not.
