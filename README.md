@@ -42,3 +42,8 @@ It will have an immediate call to action in the form of requesting a call back. 
 
   - The contact us section will allow the user to contact the company by being able to complete and submit a form which will ask for their full name, email address, and reason for contact. There will also be a map beside the form showing the general area which the company offer their services to.
   - This section's aim is to allow the user to easily get in contact with the company to ask any further questions they may have, or to request a quote. And to let them know the general area the company covers. The form will be simple and self explanatory.
+
+- __Footer__
+
+  - The footer section will contain links to the company's various social media links, and also have a copyright symbol and date. The links will all open in new tabs to create a better user experience.
+  - The footer's aim is to encourage the user to visit and connect with the company's social media pages.
