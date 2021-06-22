@@ -31,4 +31,9 @@ It will have an immediate call to action in the form of requesting a call back. 
 - __Testimonials Section__
 
   - The testimonials section will allow the user the see what previous customers have to say about the work the compnay has done for them.
-  - The aim here is to further instil confidence in the user so that they're even more likely to contact the company and request some work. 
+  - The aim here is to further instil confidence in the user so that they're even more likely to contact the company and request some work.
+
+- __Gallery__
+
+  - The gallery will allow the user the see images of some of the work previously completed by the company.
+  - The aim here is to show the user what outcome(s) they can expect if they go ahead and use the company's services. 
