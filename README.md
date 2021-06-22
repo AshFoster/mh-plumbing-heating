@@ -36,4 +36,9 @@ It will have an immediate call to action in the form of requesting a call back. 
 - __Gallery__
 
   - The gallery will allow the user the see images of some of the work previously completed by the company.
-  - The aim here is to show the user what outcome(s) they can expect if they go ahead and use the company's services. 
+  - The aim here is to show the user what outcome(s) they can expect if they go ahead and use the company's services.
+
+- __Contact Us__
+
+  - The contact us section will allow the user to contact the company by being able to complete and submit a form which will ask for their full name, email address, and reason for contact. There will also be a map beside the form showing the general area which the company offer their services to.
+  - This section's aim is to allow the user to easily get in contact with the company to ask any further questions they may have, or to request a quote. And to let them know the general area the company covers. The form will be simple and self explanatory.
