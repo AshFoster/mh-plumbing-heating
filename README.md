@@ -25,7 +25,7 @@ It will have an immediate call to action in the form of requesting a call back. 
 
 - __Services Section__
 
-  - The services section will show the user which services the company has to offer. It will be a list of bullet points showing the types of services available.
+  - The services section will show the user which services the company has to offer. It will be displayed as 3 individual cards for bathrooms, tiling, and boilers describing each in detail, and will have a list of more specific services below.
   - The aim of this section is to inform the user of the various services on offer so that they'll have a better idea of whether the company can offer them what they require or not.
 
 - __Testimonials Section__
