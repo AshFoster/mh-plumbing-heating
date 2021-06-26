@@ -277,11 +277,12 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: 0 auto;
     opacity: 0;
     max-width: 100%;
     max-height: 60vh;
     height: auto;
+    border-radius: 5px;
 }
 
 .gallery-thumbnails {
@@ -297,6 +298,7 @@ header {
 .gallery-thumbnails-image img {
     display: inline-block;
     height: 8vh;
+    border-radius: 5px;
 }
 
 #selected1:checked + img {
