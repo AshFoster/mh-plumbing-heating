@@ -322,6 +322,57 @@ header {
     opacity: 1;
 }
 
+/* Contact Us Section */
+
+.contact-us {
+    background-color: #0683c0;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-us-form,
+.map-container {
+    display: inline-block;
+    width: 40%;
+    min-width: 400px;
+    max-width: 600px;
+    padding: 1.6em;
+    vertical-align: top;   
+}
+
+.contact-us-form {
+    text-align: left;
+}
+
+.form-input {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    height: 1.5em;
+    border-radius: 2px;
+}
+
+.contact-us-form textarea {
+    height: auto;
+}
+
+.submit-button {
+    background-color: white;
+    padding: .5em 1em;
+    margin: .5em 0;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+.map-container {
+    height: 320px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
 /* Media queries */
 
 /* For very small screen sizes with maximum width of 315px */
