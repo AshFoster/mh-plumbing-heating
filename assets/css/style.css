@@ -83,7 +83,7 @@ header {
 
 /* home page and hero image */
 
-.home {
+#home {
     border: none;
     background-color: black;
     text-align: center;
@@ -97,8 +97,8 @@ header {
     opacity: .35;
 }
 
-.home h2,
-.home p,
+#home h2,
+#home p,
 .landing-page-button {
     position: absolute;
     left: 0;
@@ -110,14 +110,14 @@ header {
     padding: .45em;
 }
 
-.home h2 {
+#home h2 {
     top: 100px;
     color: #fff;
     font-size: 2.3rem;
     text-shadow: .2rem .2rem #000;
 }
 
-.home p {
+#home p {
     top: 250px;
     color: #fff;
     font-size: 1.2rem;
@@ -151,7 +151,7 @@ header {
 
 /* About us section */
 
-.about-us {
+#about-us {
     background-color: #cccccc;
     color: #000;
     padding: 1rem;
@@ -170,13 +170,13 @@ header {
     min-width: 320px;
 }
 
-.about-us p {
+#about-us p {
     font-size: 1rem;
 }
 
 /* Services section */
 
-.services {
+#services {
     background-color: #0683c0;
     color: #fff;
     padding: 1rem;
@@ -195,7 +195,7 @@ header {
     vertical-align: middle;
 }
 
-.services p {
+#services p {
     min-width: 285px;
     min-height: 80px;
 }
@@ -214,7 +214,7 @@ header {
 
 /* Testimonials Section */
 
-.testimonials {
+#testimonials {
     background-color: #fff;
     color: #000;
     padding: 1rem;
@@ -252,7 +252,7 @@ header {
 
 /* Gallery */
 
-.gallery {
+#gallery {
     background-color: #cccccc;
 }
 
@@ -324,7 +324,7 @@ header {
 
 /* Contact Us Section */
 
-.contact-us {
+#contact-us {
     background-color: #0683c0;
     color: #fff;
     text-align: center;
@@ -336,7 +336,7 @@ header {
     width: 40%;
     min-width: 400px;
     max-width: 600px;
-    padding: 1.6em;
+    padding: .5em 1.6em;
     vertical-align: top;   
 }
 
@@ -401,12 +401,12 @@ iframe {
         height: 200vw;
     }
 
-    .home h2 {
+    #home h2 {
         top: 26vw;
         font-size: 15vw;
     }
     
-    .home p {
+    #home p {
         top: 95vw;
         font-size: 8vw;
     }
@@ -424,11 +424,11 @@ iframe {
         height: 400px;
     }
 
-    .home h2 {
+    #home h2 {
         top: 80px;
     }
     
-    .home p {
+    #home p {
         top: 200px;
     }
     
@@ -444,11 +444,11 @@ iframe {
         height: 340px;
     }
 
-    .home h2 {
+    #home h2 {
         top: 70px;
     }
     
-    .home p {
+    #home p {
         top: 162px;
     }
     
@@ -472,12 +472,12 @@ iframe {
         height: 600px;
     }
 
-    .home h2 {
+    #home h2 {
         top: 150px;
         font-size: 3rem;
     }
     
-    .home p {
+    #home p {
         top: 310px;
         font-size: 1.6rem;
     }
@@ -495,11 +495,11 @@ iframe {
         height: 500px;
     }
 
-    .home h2 {
+    #home h2 {
         top: 110px;
     }
     
-    .home p {
+    #home p {
         top: 260px;
     }
     
@@ -515,10 +515,10 @@ iframe {
         height: 420px;
     }
 
-    /* .home h2 {
+    /* #home h2 {
     } */
     
-    .home p {
+    #home p {
         top: 230px;
     }
     
@@ -534,11 +534,11 @@ iframe {
         height: 350px;
     }
 
-    .home h2 {
+    #home h2 {
         font-size: 2.8rem;
     }
     
-    .home p {
+    #home p {
         top: 200px;
         font-size: 1.3rem;
     }
@@ -564,12 +564,12 @@ iframe {
         height: 600px;
     }
 
-    .home h2 {
+    #home h2 {
         top: 110px;
         font-size: 3.5rem;
     }
     
-    .home p {
+    #home p {
         top: 230px;
         font-size: 1.8rem;
     }
