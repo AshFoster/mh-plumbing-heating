@@ -77,7 +77,8 @@ header {
     font-size: 1.2rem;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu a:focus {
     color:#0683c0;
 }
 
@@ -430,6 +431,29 @@ header {
 iframe {
     width: 100%;
     height: 100%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #ccc;
+    border-top: .5px solid #000;
+}
+
+.social-links {
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.social-links i {
+    font-size: 200%;
+    color: #000;
+    padding: 0 5%;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px 5%;
 }
 
 /* Media queries */
