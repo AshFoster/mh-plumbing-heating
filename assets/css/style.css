@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -29,7 +33,7 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
     padding: 10px;
     border-bottom: .5px solid #000;
 }
@@ -87,6 +91,8 @@ header {
     border: none;
     background-color: black;
     text-align: center;
+    position: relative;
+    z-index: 9;
 }
 
 .hero-image {
@@ -151,10 +157,21 @@ header {
 
 /* About us section */
 
+#about-us::before {
+    display: block;
+    content: "";
+    margin-top: 69px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 #about-us {
     background-color: #cccccc;
     color: #000;
     padding: 1rem;
+    position: relative;
+    z-index: 8;
+    margin-top: -69px;
 }
 
 .about-us-container {
@@ -176,11 +193,22 @@ header {
 
 /* Services section */
 
+#services::before {
+    display: block;
+    content: "";
+    margin-top: 69px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 #services {
     background-color: #0683c0;
     color: #fff;
     padding: 1rem;
     text-align: center;
+    position: relative;
+    z-index: 7;
+    margin-top: -69px;
 }
 
 .services-card {
@@ -214,11 +242,22 @@ header {
 
 /* Testimonials Section */
 
+#testimonials::before {
+    display: block;
+    content: "";
+    margin-top: 69px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 #testimonials {
     background-color: #fff;
     color: #000;
     padding: 1rem;
     text-align: center;
+    position: relative;
+    z-index: 6;
+    margin-top: -69px;
 }
 
 .testimonials-card {
@@ -251,6 +290,15 @@ header {
 }
 
 /* Gallery */
+
+#gallery::before {
+    display: block;
+    content: "";
+    margin-top: -69px;
+    height: 69px;
+    visibility: hidden;
+    pointer-events: none;
+}
 
 #gallery {
     background-color: #cccccc;
@@ -324,10 +372,21 @@ header {
 
 /* Contact Us Section */
 
+#contact-us::before {
+    display: block;
+    content: "";
+    margin-top: -69px;
+    height: 69px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 #contact-us {
     background-color: #0683c0;
     color: #fff;
     text-align: center;
+    position: relative;
+    z-index: -1;
 }
 
 .contact-us-form,
