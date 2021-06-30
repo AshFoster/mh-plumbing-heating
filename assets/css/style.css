@@ -18,9 +18,8 @@ body {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    /* font-family: 'Montserrat', sans-serif; */
     text-align: center;
     font-size: 2rem;
     padding: 1em;
@@ -122,6 +121,7 @@ header {
     color: #fff;
     font-size: 2.3rem;
     text-shadow: .2rem .2rem #000;
+    font-family: 'Roboto', sans-serif;
 }
 
 #home p {
@@ -186,10 +186,6 @@ header {
     width: 90%;
     padding: 1em;
     vertical-align: middle;
-}
-
-#about-us p {
-    font-size: 1rem;
 }
 
 /* Services section */
@@ -296,6 +292,8 @@ header {
 #gallery {
     background-color: #cccccc;
     padding-bottom: 1em;
+    position: relative;
+    z-index: 5;
 }
 
 .gallery-display {
@@ -383,7 +381,7 @@ header {
     color: #fff;
     text-align: center;
     position: relative;
-    z-index: -1;
+    z-index: 4;
     padding-bottom: 5%;
 }
 
@@ -596,9 +594,9 @@ footer {
 
     .contact-us-form,
     .map-container {
-    width: 40%;
-    min-width: 450px;
-}
+        width: 40%;
+        min-width: 450px;
+    }
 }
 
 /* For medium screen sizes with minimum width of 720px and maximum height of 650px - unlikely scenario but good to cater for it  */
@@ -627,9 +625,6 @@ footer {
     .hero-image {
         height: 420px;
     }
-
-    /* #home h2 {
-    } */
     
     #home p {
         top: 230px;
@@ -640,9 +635,9 @@ footer {
     }  
 }
 
-/* For medium screen sizes with minimum width of 700px and maximum height of 450px  */
+/* For medium screen sizes with minimum width of 720px and maximum height of 450px  */
 
-@media screen and (min-width: 700px) and (max-height: 450px) {
+@media screen and (min-width: 720px) and (max-height: 450px) {
     .hero-image {
         height: 350px;
     }
@@ -662,40 +657,9 @@ footer {
     }  
 }
 
-/* For medium screen sizes from 900px wide and up*/
+/* For larger screen sizes from 1120px wide and up*/
 
-/* @media screen and (min-width: 900px) {
-    .logo {
-        width: 350px;
-    }
-
-    .menu-toggle-icon {
-        margin-top: 25px;
-    }
-
-    .hero-image {
-        height: 600px;
-    }
-
-    #home h2 {
-        top: 110px;
-        font-size: 3.5rem;
-    }
-    
-    #home p {
-        top: 230px;
-        font-size: 1.8rem;
-    }
-    
-    .landing-page-button {
-        top: 350px;
-        font-size: 2rem;
-    } 
-} */
-
-/* For larger screen sizes from 1110px wide and up*/
-
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1120px) {
     .logo {
         width: 325px;
     }
@@ -722,5 +686,23 @@ footer {
     .hero-image {
         background: url('../images/hero-image-wide.jpg') no-repeat center center;
         background-size: cover;
+    }
+}
+
+/* For larger screen sizes from 1500px wide and up*/
+
+@media screen and (min-width: 1500px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .services-card {
+        max-width: 450px;
+        min-height: 160px;
+    }
+
+    .left-list,
+    .right-list {
+        max-width: 300px;
     }
 }

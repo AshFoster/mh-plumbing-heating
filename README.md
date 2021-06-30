@@ -2,7 +2,7 @@
 
 This is a website for a plumbing and heating business based in the north of England named Martin Harris Plumbing and Heating Ltd. Its primary focus is to allow its users to learn more about the company and what services are available, and allow them to easily make contact with the company to ask any questions they may have or to request a quote for some work they require. 
 
-It will have an immediate call to action in the form of requesting a call back. It will also allow users to see testimoniamls from previous customers, and to see an image gallery of some the work the company has previously completed.
+It will have an immediate call to action in the form of a button that will take the user to the contact us form. It will also allow users to see testimoniamls from previous customers, and to see an image gallery of some the work the company has previously completed.
 
 ## Features
 
