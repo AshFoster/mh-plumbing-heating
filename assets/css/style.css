@@ -223,7 +223,7 @@ header {
 }
 
 .services-list-container {
-    padding: 1em 0em 1em 2em;
+    padding: 1em 0 1em 2em;
     max-width: 305px;
     margin: 0 auto;
 }
@@ -271,7 +271,6 @@ header {
     width: auto;
     height: 100px;
     border-radius: 50%;
-    /* float: left; */
     padding: .3em;
 }
 
@@ -329,7 +328,7 @@ header {
 }
 
 .gallery-thumbnails {
-    padding: 2% 0;
+    padding: 1% 0;
     text-align: center;
     
 }
@@ -392,6 +391,7 @@ header {
 .map-container {
     display: inline-block;
     width: 80%;
+    max-width: 450px;
     padding: .5em 1.6em;
     vertical-align: top;   
 }
@@ -493,10 +493,10 @@ footer {
     .landing-page-button {
         top: 150vw;
         font-size: 6vw;
-    }  
+    }
 }
 
-/* For smaller screen sizes with manimum width of 315px and maximum height of 530px - unlikely scenario but good to cater for it */
+/* For smaller screen sizes with maximum width of 315px and maximum height of 530px - unlikely scenario but good to cater for it */
 
 @media screen and (min-width: 315px) and (max-height: 530px) {
     .hero-image {
@@ -516,7 +516,7 @@ footer {
     }  
 }
 
-/* For smaller screen sizes with manimum width of 315px and maximum height of 430px */
+/* For smaller screen sizes with minimum width of 316px and maximum height of 430px */
 
 @media screen and (min-width: 316px) and (max-height: 430px) {
     .hero-image {
@@ -534,6 +534,14 @@ footer {
     .landing-page-button {
         top: 250px;
     }  
+}
+
+/* For smaller screen sizes with minimum width of 350px - this is only so the testimonial cards look as expected */
+
+@media screen and (min-width: 350px) {
+    .testimonial-image {
+        float: left;
+    }
 }
 
 /* For medium screen sizes with a minimum width of 720px - mainly for ipads in portrait mode */
@@ -564,7 +572,33 @@ footer {
     .landing-page-button {
         top: 450px;
         font-size: 1.6rem;
-    }  
+    }
+
+    .about-us-paragraphs,
+    .about-us-image {
+        width: 45%;
+    }
+
+    .services-card {
+        width: 30%;
+        min-width: 320px;
+        min-height: 140px;
+    }
+    
+    .services-list-container {
+        max-width: 80%;
+    }
+    
+    .left-list,
+    .right-list {
+        max-width: 250px;
+    }
+
+    .contact-us-form,
+    .map-container {
+    width: 40%;
+    min-width: 450px;
+}
 }
 
 /* For medium screen sizes with minimum width of 720px and maximum height of 650px - unlikely scenario but good to cater for it  */
