@@ -98,7 +98,7 @@ header {
 .hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-image-small.jpg') center;
+    background: url('../images/hero-image-small.jpg') no-repeat center center;
     background-size: cover;
     opacity: .35;
 }
@@ -112,7 +112,7 @@ header {
     margin: auto;
     animation-name: text-zoom;
     animation-duration: 1s;
-    animation-fill-mode: alternate;
+    animation-fill-mode: forwards;
     padding: .45em;
 }
 
@@ -146,10 +146,7 @@ header {
 
 @keyframes text-zoom {
     0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.2);
+        transform: scale(0);
     }
     100%{
         transform: scale(1);
@@ -554,7 +551,8 @@ footer {
     }
 
     .hero-image {
-        height: 600px;
+        background: url('../images/hero-image-wide.jpg') no-repeat center center;
+        background-size: cover;
     }
 
     #home h2 {
@@ -681,11 +679,6 @@ footer {
         font-size: 180%;
         list-style-type: none;
         margin-left: 5px;
-    }
-
-    .hero-image {
-        background: url('../images/hero-image-wide.jpg') no-repeat center center;
-        background-size: cover;
     }
 }
 
