@@ -1,8 +1,49 @@
 # Martin Harris Plumbing and Heating Ltd
 
-This is a website for a plumbing and heating business based in the north of England named Martin Harris Plumbing and Heating Ltd. Its primary focus is to allow its users to learn more about the company and what services are available, and allow them to easily make contact with the company to ask any questions they may have or to request a quote for some work they require. 
+This is a website for a plumbing and heating business based in the north of England named Martin Harris Plumbing and Heating Ltd. It has been designed to showcase what the company has to offer, to be easy to navigate, and to be responsive across a range of popular devices.
+
+Its primary focus is to allow its users to learn more about the company and what services are available, and allow them to easily make contact with the company to ask any questions they may have or to request a quote for some work they require. 
 
 It will have an immediate call to action in the form of a button that will take the user to the contact us form. It will also allow users to see testimoniamls from previous customers, and to see an image gallery of some the work the company has previously completed.
+
+## User Experience (UX)
+
+The five planes of user experience were considered during the design phase of this website, which are all outlined below.
+
+### Strategy Plane
+
+Here, the user goals are considered and outlined with the aim of having a clear understanding of what thought process user's of the site are likely to go through, and what they might expect from the website.
+
+The website's owner's goals are also be considered, and when combined with the user goals, will provide ideas for potential features for the website.
+
+- __User Goals__
+
+  As a user I would like to:
+  - easily navigate across the website.
+  - be able to find more out about the company and its history.
+  - be able read about what services are on offer.
+  - to see some testimonials from previous customers.
+  - to see images of the sort of work the company has done previously. 
+  - easily be able to find out how to make contact with the company.
+  - see the general area the company provides its services to.
+
+- __Owner Goals__
+  
+  As the owner I would like:
+  - to increase the company's online presence and its brand awareness.
+  - the users of my website to have planty of calls to action.
+  - the users to be prompted to make contact to ask any questions they may have or to request a quote for some work they require.
+  - to provide clear and concise information about the company and its services. 
+  - customers to be able to find us on various social media sites.
+
+### Scope Plane
+
+All of the potential features outlined via the user and owner goals in the strategy plane all seem to be plausible for the first release of the website. For this reason there is not too much to consider in terms of further scope, and the plan is to implement all of the above mentioned features and functionalities.
+
+### Structure Plane
+
+
+
 
 ## Features
 
