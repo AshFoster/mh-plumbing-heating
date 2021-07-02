@@ -42,10 +42,51 @@ All of the potential features outlined via the user and owner goals in the strat
 
 ### Structure Plane
 
+At first I was planning to split the website across three pages, being: Home, Gallery, and Contact Us. Though I then had a conversation with my mentor who advised me to keep it all on one page in order to reduce the amount of code duplation across the pages for features such as the header and footer.
+
+I therefore took my mentor's advise and planned the website based on this principle.
+
+The basic structure of the site - from top to bottom - is as follows:
+- Navigation Bar
+- Home/Hero Image with text overlay
+- About Us
+- Services We Offer
+- Testimonials
+- Gallery
+- Contact Us
+- Footer
+
+These are outlined in more detail in the [Features](#features) section below.
+
+### Skeleton Plane
+
+#### Wireframes
+
+Three wireframes were created using [Balsamiq](https://balsamiq.com/), for mobiles, tablets, and desktops.
+
+Here are the links to them:
+
+- [Mobile Wireframe](assets/wireframes/mobile-wireframe.pdf)
+- [Tablet Wireframe](assets/wireframes/tablet-wireframe.pdf)
+- [Desktop Wireframe](assets/wireframes/desktop-wireframe.pdf)
+
+### Surface Plane
+
+#### Colour Scheme
+
+The colour scheme used was based on the colours on the company's logo. The logo already existed before the commencement of this project, and I had no part in its design. It made sense, however, to use these colours to form the website's colour scheme. 
+
+It's a simple four colour palette which is shown in the following image:
+
+![Website's Colour Palette](assets/images/colour-scheme.jpg)
+
+#### Typography
+
+#### Hero Image
 
 
 
-## Features
+## [Features]
 
 ### Existing Features
 
