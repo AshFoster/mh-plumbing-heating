@@ -12,7 +12,7 @@ The five planes of user experience were considered during the design phase of th
 
 ### Strategy Plane
 
-Here, the user goals are considered and outlined with the aim of having a clear understanding of what thought process user's of the site are likely to go through, and what they might expect from the website.
+Here, the user goals are considered and outlined with the aim of having a clear understanding of what thought process users of the site are likely to go through, and what they might expect from the website.
 
 The website's owner's goals are also be considered, and when combined with the user goals, will provide ideas for potential features for the website.
 
@@ -38,11 +38,11 @@ The website's owner's goals are also be considered, and when combined with the u
 
 ### Scope Plane
 
-All of the potential features outlined via the user and owner goals in the strategy plane all seem to be plausible for the first release of the website. For this reason there is not too much to consider in terms of further scope, and the plan is to implement all of the above mentioned features and functionalities.
+All of the user and owner goals outlined in the strategy plane all seem to be plausible for the first release of the website. For this reason there is not too much to consider in terms of further scope, and the plan is to implement all of the above mentioned goals and outcomes.
 
 ### Structure Plane
 
-At first I was planning to split the website across three pages, being: Home, Gallery, and Contact Us. Though I then had a conversation with my mentor who advised me to keep it all on one page in order to reduce the amount of code duplation across the pages for features such as the header and footer.
+At first I was planning to split the website across three pages, being: Home, Gallery, and Contact Us. I then had a conversation with my mentor who advised me to keep it all on one page in order to reduce the amount of code duplication across the pages for features such as the header and the footer.
 
 I therefore took my mentor's advise and planned the website based on this principle.
 
@@ -58,13 +58,15 @@ The basic structure of the site - from top to bottom - is as follows:
 
 These are outlined in more detail in the [Features](#features) section below.
 
+Originally I had planned to have the Gallery just above the Testimonials section (which can be see in the [Wireframes](#wireframes)) rather than the other way round. The reason I swapped the order was due to how the colours of each section looked in that particular order. This is explained in more detail in the [Colour Scheme](#colour-scheme) section below.  
+
 ### Skeleton Plane
 
 #### Wireframes
 
-Three wireframes were created using [Balsamiq](https://balsamiq.com/), for mobiles, tablets, and desktops.
+Three wireframes - for mobiles, tablets, and desktops- were created using [Balsamiq](https://balsamiq.com/).
 
-Here are the links to them:
+Here are links to each of them:
 
 - [Mobile Wireframe](assets/wireframes/mobile-wireframe.pdf)
 - [Tablet Wireframe](assets/wireframes/tablet-wireframe.pdf)
@@ -74,11 +76,13 @@ Here are the links to them:
 
 #### Colour Scheme
 
-The colour scheme used was based on the colours on the company's logo. The logo already existed before the commencement of this project, and I had no part in its design. It made sense, however, to use these colours to form the website's colour scheme. 
+The colour scheme used was based on the colours of the company's logo. The logo already existed before the commencement of this project, and I had no part in its design. It made sense, however, to use these colours to form the website's colour scheme. 
 
 It's a simple four colour palette which is shown in the following image:
 
 ![Website's Colour Palette](assets/images/colour-scheme.jpg)
+
+The idea - other than the home page which will have a hero image - is that each section will alternate between using grey (#cccccc) as the background colour with black (#000000) text, and using blue (#0683C0) as the background with white (#ffffff) text. The reason for this is so that each section is obviously separate from its adjacent sections. In practice though, a couple of things needed changing in order for the website's appearance to flow properly down the page.
 
 #### Typography
 
@@ -86,7 +90,7 @@ It's a simple four colour palette which is shown in the following image:
 
 
 
-## [Features]
+## Features
 
 ### Existing Features
 
