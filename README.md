@@ -14,7 +14,7 @@ The five planes of user experience were considered during the design phase of th
 
 Here, the user goals are considered and outlined with the aim of having a clear understanding of what thought process users of the site are likely to go through, and what they might expect from the website.
 
-The website's owner's goals are also be considered, and when combined with the user goals, will provide ideas for potential features for the website.
+The website's owner's goals are also considered, and when combined with the user goals, will provide ideas for potential features for the website.
 
 - __User Goals__
 
@@ -22,8 +22,8 @@ The website's owner's goals are also be considered, and when combined with the u
   - easily navigate across the website.
   - be able to find more out about the company and its history.
   - be able read about what services are on offer.
-  - to see some testimonials from previous customers.
-  - to see images of the sort of work the company has done previously. 
+  - see some testimonials from previous customers.
+  - see images of the sort of work the company has done previously. 
   - easily be able to find out how to make contact with the company.
   - see the general area the company provides its services to.
 
@@ -58,7 +58,7 @@ The basic structure of the site - from top to bottom - is as follows:
 
 These are outlined in more detail in the [Features](#features) section below.
 
-Originally I had planned to have the Gallery just above the Testimonials section (which can be see in the [Wireframes](#wireframes)) rather than the other way round. The reason I swapped the order was due to how the colours of each section looked in that particular order. This is explained in more detail in the [Colour Scheme](#colour-scheme) section below.  
+Originally I had planned to have the Gallery just above the Testimonials section (which can be see in the [wireframes](#wireframes)) rather than the other way round. The reason I swapped the order was due to how the colours of each section looked in that particular order. This is explained in more detail in the [Colour Scheme](#colour-scheme) section below.  
 
 ### Skeleton Plane
 
@@ -84,11 +84,29 @@ It's a simple four colour palette which is shown in the following image:
 
 The idea - other than the home page which will have a hero image - is that each section will alternate between using grey (#cccccc) as the background colour with black (#000000) text, and using blue (#0683C0) as the background with white (#ffffff) text. The reason for this is so that each section is obviously separate from its adjacent sections. In practice though, a couple of things needed changing in order for the website's appearance to flow properly down the page.
 
+Firstly, I wanted the header and footer to both have a grey background colour. This combined with wanting each section to have a different background colour to its adjacent sections meant that the order and colour of each section had to be very specific. I also felt that certain sections were more suited to a grey background, whilst others were more suited to a blue background. 
+
+I eventually decided that the testimonials section looked better with a white background with each individual testimonial card having a grey background. This lead to changing the order of the testimonial and gallery sections so that the website had an even flow down the page. The even flow being: Home (hero image), About Us (grey), Services (blue), Testimonials (white), Gallery (grey), Contact Us (blue). That all between the header and footer; both grey.
+
 #### Typography
 
-#### Hero Image
+For my typography choices I used [Google Fonts](https://fonts.google.com/?sort=popularity) which I sorted by popularity to give me an idea of some fonts that are likely to work well across a number of websites.
 
+I then selected the ones that stood out the most to me. The fonts I chose are as follows:
 
+Roboto - This is used for the H2 element overlayed on top of the hero image.
+
+Montserrat - This is used for all other H2 elements, in this case section headers. 
+
+Source Sans Pro - This is used for all other text, in this case all paragraphs.
+
+Each of them are of the font category Sans Serif which is the font used as a fallback if for any reason the specified font isn't available.
+
+#### Imagery
+
+Other than for use in the gallery, only two images have been used. One being the hero image and the other being an image of the company van within the About Us section. Both of these, as well as the gallery images, were provded by the company's owner. I felt it was approriate to make use of the images proivded to make the website more authentic. 
+
+For the hero image I chose an image that I felt appeared to showcase the company's work whilst also being suitable for text overlay.
 
 ## Features
 
