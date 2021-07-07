@@ -551,6 +551,7 @@ footer {
     }
 
     .hero-image {
+        height: 600px;
         background: url('../images/hero-image-wide.jpg') no-repeat center center;
         background-size: cover;
     }
