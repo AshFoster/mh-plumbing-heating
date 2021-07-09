@@ -1,8 +1,10 @@
-/* Google fonts import */
+/* All section names within this style sheet are preceeded with /// for ease of finding */
+
+/* /// Google fonts import */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@400;700&display=swap');
 
-/* Global styles and typography */
+/* /// Global styles and typography */
 
 * {
     margin: 0;
@@ -28,9 +30,13 @@ h2 {
     padding: 1em;
 }
 
-/* header - including logo and menu */
+/* /// Header - including logo and menu */
 
-/* CREDIT - the idea for the hamburger style responsive menu came from Kevin Powell's youtube video https://www.youtube.com/watch?v=8QKOaTYvYUA - I restyled and adapted it using only css that I have learnt so far from the code institute course */
+/* CREDIT - the idea for using a checkbox and label for the hamburger style responsive menu came
+    from Kevin Powell's youtube video https://www.youtube.com/watch?v=8QKOaTYvYUA - I restyled 
+    and adapted it using only css that I have learnt so far from the code institute course.
+    Subsequently, since the menu didn't disappear when the individual menu items were clicked on, 
+    my mentor, Antonio Rodriguez helped me to add some javascript to use instead */
 
 header {
     background-color: #ccc;
@@ -53,26 +59,25 @@ header {
     margin: 8px 20px 0 0;
 }
 
-.menu-toggle {
-    display: none;
-}
-
-.menu {
+#menu {
     position: absolute;
     text-align: right;
     top: 100%;
     right: 0;
     background-color: #ccc;
     width: 100%;
+}
+
+.hide {
     display: none;
 }
 
-.menu li {
+#menu li {
     list-style-type: none;
     margin: 0 30px 10px 0;
 }
 
-.menu a {
+#menu a {
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -80,16 +85,12 @@ header {
     font-size: 1.2rem;
 }
 
-.menu a:hover,
-.menu a:focus {
+#menu a:hover,
+#menu a:focus {
     color:#0683c0;
 }
 
-.menu-toggle:checked ~ .menu {
-    display: block;
-}
-
-/* home page and hero image */
+/* /// Home Page and Hero Image */
 
 #home {
     border: none;
@@ -114,10 +115,22 @@ header {
     left: 0;
     right: 0;
     margin: auto;
+    padding: .45em;
+
+    /* animates zoom feature for h2, p, and landing-page-button on home/landing page */
     animation-name: text-zoom;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    padding: .45em;
+}
+
+/* creates zoom scale for home/landing page animation */
+@keyframes text-zoom {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 #home h2 {
@@ -148,21 +161,17 @@ header {
     text-transform: uppercase;
 }
 
-@keyframes text-zoom {
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
+/* /// About Us Section */
 
-/* About us section */
-
+/* CREDIT - the idea for using the 'before' pseudo-element to displace the section to account for the
+    size of the fixed header when using the menu to navigate to the section came from the following 
+    link https://css-tricks.com/hash-tag-links-padding/ - without this the top of the section would 
+    be hidden by the fixed header when navigated to via the menu. I couldn't get it to work using
+    the exact way they described it so have adapted it to make it work for me */
 #about-us::before {
     display: block;
     content: "";
-    margin-top: 69px;
+    margin-top: 68px;
     visibility: hidden;
     pointer-events: none;
 }
@@ -173,7 +182,7 @@ header {
     padding: 1em;
     position: relative;
     z-index: 8;
-    margin-top: -69px;
+    margin-top: -68px;
 }
 
 .about-us-container {
@@ -189,12 +198,17 @@ header {
     vertical-align: middle;
 }
 
-/* Services section */
+/* /// Services Section */
 
+/* CREDIT - the idea for using the 'before' pseudo-element to displace the section to account for the
+    size of the fixed header when using the menu to navigate to the section came from the following 
+    link https://css-tricks.com/hash-tag-links-padding/ - without this the top of the section would 
+    be hidden by the fixed header when navigated to via the menu. I couldn't get it to work using
+    the exact way they described it so have adapted it to make it work for me */
 #services::before {
     display: block;
     content: "";
-    margin-top: 69px;
+    margin-top: 68px;
     visibility: hidden;
     pointer-events: none;
 }
@@ -206,7 +220,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 7;
-    margin-top: -69px;
+    margin-top: -68px;
 }
 
 .services-card {
@@ -232,14 +246,21 @@ header {
     width: 90%;
 }
 
-/* Testimonials Section */
+/* /// Testimonials Section */
 
-/* CREDIT - the idea for the testimonial card style I used came from DarkCode's youtube video https://www.youtube.com/watch?v=zkyIVFoLxgY - I amended to my own style preference and my own code style using only HTML and CSS I've learnt so far in the code institute course */
+/* CREDIT - the idea for the testimonial card style I used came from DarkCode's youtube video
+    https://www.youtube.com/watch?v=zkyIVFoLxgY - I amended to my own style preference and my 
+    own code style using only HTML and CSS I've learnt so far in the code institute course */
 
+/* CREDIT - the idea for using the 'before' pseudo-element to displace the section to account for the
+    size of the fixed header when using the menu to navigate to the section came from the following 
+    link https://css-tricks.com/hash-tag-links-padding/ - without this the top of the section would 
+    be hidden by the fixed header when navigated to via the menu. I couldn't get it to work using
+    the exact way they described it so have adapted it to make it work for me */
 #testimonials::before {
     display: block;
     content: "";
-    margin-top: 69px;
+    margin-top: 68px;
     visibility: hidden;
     pointer-events: none;
 }
@@ -251,7 +272,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 6;
-    margin-top: -69px;
+    margin-top: -68px;
 }
 
 .testimonials-card {
@@ -281,15 +302,22 @@ header {
     padding: 0 .5em;
 }
 
-/* Gallery */
+/* /// Gallery */
 
-/* CREDIT - the idea for the image gallery style came from K2classroom's youtube video https://www.youtube.com/watch?v=1vwtg8qhs4o - I amended to my own code style using only HTML and CSS I've learnt so far in the code institute course */
+/* CREDIT - the idea for the image gallery style came from K2classroom's youtube video
+    https://www.youtube.com/watch?v=1vwtg8qhs4o - I amended to my own code style using
+    only HTML and CSS I've learnt so far in the code institute course */
 
+/* CREDIT - the idea for using the 'before' pseudo-element to displace the section to account for the
+    size of the fixed header when using the menu to navigate to the section came from the following 
+    link https://css-tricks.com/hash-tag-links-padding/ - without this the top of the section would 
+    be hidden by the fixed header when navigated to via the menu. I couldn't get it to work using
+    the exact way they described it so have adapted it to make it work for me */
 #gallery::before {
     display: block;
     content: "";
-    margin-top: -69px;
-    height: 69px;
+    margin-top: -68px;
+    height: 68px;
     visibility: hidden;
     pointer-events: none;
 }
@@ -373,13 +401,18 @@ header {
     opacity: 1;
 }
 
-/* Contact Us Section */
+/* /// Contact Us Section */
 
+/* CREDIT - the idea for using the 'before' pseudo-element to displace the section to account for the
+    size of the fixed header when using the menu to navigate to the section came from the following 
+    link https://css-tricks.com/hash-tag-links-padding/ - without this the top of the section would 
+    be hidden by the fixed header when navigated to via the menu. I couldn't get it to work using
+    the exact way they described it so have adapted it to make it work for me */
 #contact-us::before {
     display: block;
     content: "";
-    margin-top: -69px;
-    height: 69px;
+    margin-top: -68px;
+    height: 68px;
     visibility: hidden;
     pointer-events: none;
 }
@@ -435,7 +468,7 @@ iframe {
     height: 100%;
 }
 
-/* Footer */
+/* /// Footer */
 
 footer {
     background-color: #ccc;
@@ -458,7 +491,7 @@ footer {
     padding: 10px 5%;
 }
 
-/* Media queries */
+/* /// Media queries */
 
 /* For very small screen sizes with maximum width of 315px */
 
@@ -474,11 +507,11 @@ footer {
         margin-right: 2vw;
     }
 
-    .menu li {
+    #menu li {
         margin: 0 6vw 4vw 0;
     }
 
-    .menu a {
+    #menu a {
         font-size: 7vw;
     }
 
@@ -678,7 +711,7 @@ footer {
         display: none; 
     }
 
-    .menu {
+    #menu {
         position: static;
         display: block;
         float: right;
@@ -686,7 +719,7 @@ footer {
         width: 65%;
     }
 
-    .menu li {
+    #menu li {
         display: inline-block;
         font-size: 180%;
         list-style-type: none;

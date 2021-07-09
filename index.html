@@ -12,29 +12,37 @@
 </head>
 <body>
     <header>
-        <!-- Anchor tag all on one line to prevent an extra space being added by default. Better than using css to remove underline -->
-        <a href="#home"><img src="assets/images/transparent-logo.png" alt="Company logo image which says Martin Harris Plumbing and Heating" class="logo"></a>
-        <label for="menu-toggle" class="menu-toggle-icon"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <nav class="menu">
+        <a href="#home">
+            <img src="assets/images/transparent-logo.png" alt="Company logo image which says Martin Harris Plumbing and Heating" class="logo">
+        </a>
+        <div class="menu-toggle-icon" onclick="document.getElementById('menu').classList.remove('hide');">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- CREDIT - the idea for using a checkbox and label for the hamburger style responsive menu came
+        from Kevin Powell's youtube video https://www.youtube.com/watch?v=8QKOaTYvYUA - I restyled 
+        and adapted it using only css that I have learnt so far from the code institute course.
+        Subsequently, since the menu didn't disappear when the individual menu items were clicked on, 
+        my mentor, Antonio Rodriguez helped me to add some javascript to use instead -->
+        <nav id="menu" class="hide">
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" onclick="document.getElementById('menu').classList.add('hide');">Home</a>
                 </li>
                 <li>
-                    <a href="#about-us">About</a>
+                    <a href="#about-us" onclick="document.getElementById('menu').classList.add('hide');">About</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a href="#services" onclick="document.getElementById('menu').classList.add('hide');">Services</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#testimonials" onclick="document.getElementById('menu').classList.add('hide');">Testimonials</a>
                 </li>
                 <li>
-                    <a href="#gallery">Gallery</a>
+                    <a href="#gallery" onclick="document.getElementById('menu').classList.add('hide');">Gallery</a>
                 </li>
                 <li>
-                    <a href="#contact-us">Contact Us</a>
+                    <a href="#contact-us" onclick="document.getElementById('menu').classList.add('hide');">Contact Us</a>
                 </li>
             </ul>
         </nav>
