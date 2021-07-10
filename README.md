@@ -2,6 +2,10 @@
 
 [Click here to view the live site.](https://ashfoster.github.io/mh-plumbing-heating/)
 
+![Am I Responsive Image](assets/images/am-i-responsive.jpg)
+
+## Overview
+
 This is a website for a plumbing and heating business based in the north of England named Martin Harris Plumbing and Heating Ltd. It has been designed to showcase what the company has to offer, to be easy to navigate, and to be responsive across a range of popular devices.
 
 Its primary focus is to allow its users to learn more about the company and what services are available, and allow them to easily make contact with the company to ask any questions they may have or to request a quote for some work they require. 

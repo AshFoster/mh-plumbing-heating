@@ -11,6 +11,13 @@
     <title>Martin Harris Plumbing & Heating Ltd</title>
 </head>
 <body>
+
+    <!-- /// Header -->
+    <!-- CREDIT - the idea for using a checkbox and label for the hamburger style responsive menu came
+        from Kevin Powell's youtube video https://www.youtube.com/watch?v=8QKOaTYvYUA - I restyled 
+        and adapted it using only css that I have learnt so far from the code institute course.
+        Subsequently, since the menu didn't disappear when the individual menu items were clicked on, 
+        my mentor, Antonio Rodriguez helped me to add some javascript to use instead -->
     <header>
         <a href="#home">
             <img src="assets/images/transparent-logo.png" alt="Company logo image which says Martin Harris Plumbing and Heating" class="logo">
@@ -18,12 +25,6 @@
         <div class="menu-toggle-icon" onclick="document.getElementById('menu').classList.remove('hide');">
             <i class="fas fa-bars"></i>
         </div>
-
-        <!-- CREDIT - the idea for using a checkbox and label for the hamburger style responsive menu came
-        from Kevin Powell's youtube video https://www.youtube.com/watch?v=8QKOaTYvYUA - I restyled 
-        and adapted it using only css that I have learnt so far from the code institute course.
-        Subsequently, since the menu didn't disappear when the individual menu items were clicked on, 
-        my mentor, Antonio Rodriguez helped me to add some javascript to use instead -->
         <nav id="menu" class="hide">
             <ul>
                 <li>
@@ -47,12 +48,16 @@
             </ul>
         </nav>
     </header>
+
+    <!-- /// Home/Landing page Section -->
     <section id="home">
         <div class="hero-image"></div>
         <h2>No job too big, no job too small</h2>
         <p>Over 40 years in the business handling many different jobs</p>
         <a href="#contact-us" class="landing-page-button">Contact Us Now</a>
     </section>
+
+    <!-- /// About Us Section -->
     <section id="about-us">
         <h2>About Us</h2>
         <div class="about-us-container">
@@ -66,6 +71,8 @@
             <img src="assets/images/van-small.jpg" alt="An image of the company's van" class="about-us-image">
         </div>
     </section>
+
+    <!-- /// Services Section -->
     <section id="services">
         <h2>Services We Offer</h2>
         <div class="services-card-container">
@@ -101,6 +108,11 @@
             </div>
         </div>
     </section>
+
+    <!-- /// Testimonials Section -->
+    <!-- CREDIT - the idea for the testimonial card style I used came from DarkCode's youtube video
+    https://www.youtube.com/watch?v=zkyIVFoLxgY - I amended to my own style preference and my 
+    own code style using only HTML and CSS I've learnt so far in the code institute course -->
     <section id="testimonials">
         <h2>Testimonials</h2>
         <div class="testimonials-card">
@@ -152,6 +164,11 @@
             <p>"5 stars, will use again"</p>
         </div>
     </section>
+
+    <!-- /// Gallery -->
+    <!-- CREDIT - the idea for the image gallery style came from K2classroom's youtube video
+    https://www.youtube.com/watch?v=1vwtg8qhs4o - I amended to my own code style using
+    only HTML and CSS I've learnt so far in the code institute course -->
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery-display">
@@ -194,6 +211,8 @@
             </label>
         </div>
     </section>
+
+    <!-- Contact Us Section -->
     <section id="contact-us">
         <h2>Contact Us</h2>
         <div class="contact-us-container">
@@ -216,10 +235,12 @@
                 <input type="submit" value="Submit" class="submit-button">
             </form>
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838239.760022499!2d-3.500131869075072!3d54.527639473349424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48632ab0a13de7c5%3A0x16e1925b0544819a!2sCumbria!5e0!3m2!1sen!2suk!4v1624716587323!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe title="A map of Cumbria - the area covered by the company" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838239.760022499!2d-3.500131869075072!3d54.527639473349424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48632ab0a13de7c5%3A0x16e1925b0544819a!2sCumbria!5e0!3m2!1sen!2suk!4v1624716587323!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div> 
     </section>
+
+    <!-- /// Footer -->
     <footer>
         <div class="social-links">
             <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
@@ -229,7 +250,7 @@
         <p class="copyright">Copyright 2021 Martin Harris Plumbing and Heating Ltd</p>
     </footer>
 
-    <!-- font awesome script -->
+    <!-- /// font awesome script -->
     <script src="https://kit.fontawesome.com/3bdce663db.js" crossorigin="anonymous"></script>
 </body>
 </html>
