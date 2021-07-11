@@ -118,6 +118,8 @@ header {
     margin: auto;
     padding: .45em;
 
+    /* CREDIT - animation idea came from Code Institute's Love Running project, though the animation
+    style is not exactly the same */
     /* animates zoom feature for h2, p, and landing-page-button on home/landing page */
     animation-name: text-zoom;
     animation-duration: 1s;

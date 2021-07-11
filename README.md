@@ -34,7 +34,7 @@ The website's owner's goals are also considered, and when combined with the user
   - see the general area the company provides its services to.
 
 - __Owner Goals__
-  
+
   As the owner I would like:
   - to increase the company's online presence.
   - the users of my website to have planty of calls to action.
@@ -186,6 +186,8 @@ For the hero image I chose an image that I felt appeared to showcase the company
 
   - No errors found when put through the [W3C CSS Validation Service - Jigsaw.](https://jigsaw.w3.org/css-validator/)
 
+### Performance Testing
+
 - __Google Chrome Lighthouse__
 
 I audited the website for mobile and desktop using Google Chrome's lighthouse feature; results as follows:
@@ -198,25 +200,45 @@ I audited the website for mobile and desktop using Google Chrome's lighthouse fe
 
   ![Desktop Lighthouse](assets/images/lighthouse-desktop.jpg)
 
-### User Goals
+### User Goals Testing
 
-  As a user I would like to:
-    - easily navigate across the website.
-    - be able to find more out about the company and its history.
-    - be able read about what services are on offer.
-    - see some testimonials from previous customers.
-    - see images of the sort of work the company has done previously. 
-    - easily be able to find out how to make contact with the company.
-    - see the general area the company provides its services to.
+- _As a user I would like to easily navigate across the website:_
+    - Upon first viewing of the website the user is shown some attention grabbing text with a large button that they can click on to take them to the contact form. This button acts as expected.
+    - The header is also immediately visible which has the site's the navigation links on the right hand side. Each of these links take the user to the relevent section without any issues. 
+- _As a user I would like to be able to find more out about the company and its history:_
+    - The user can either scroll to the About Us section or click on the link in the nav bar to be taken there immediately.
+    - There are some concise paragraphs that the user can read to learn more about the the company and its history.
+- _As a user I would like to be able read about what services are on offer:_
+    - The user can either scroll to the Services section or click on the link in the nav bar to be taken there immediately.
+    - There are 3 boxes describing Bathrooms, Tiling, and Boilers which the user can read to learn more about what the company specialise in.
+    - There is also a list of services that the user can read through.   
+- _As a user I would like to see some testimonials from previous customers:_
+    - The user can either scroll to the Testimonials section or click on the link in the nav bar to be taken there immediately.
+    - The user can see various testimonials from previous customers which all include an image of them, their name, their rating of service out 5, and a testimonial they've written.
+- _As a user I would like to see images of the sort of work the company has done previously:_
+    - The user can either scroll to the Gallery or click on the link in the nav bar to be taken there immediately.
+    - The user can see a large image above some smaller thumbnail images of work the company has previously completed. The user can click on each of the thumbnails to make that particular image appear as the large image above.
+- _As a user I would like to easily be able to find out how to make contact with the company:_
+    - The user can click on the 'Contact Us Now' button on the home/landing page or click on the link in the nav bar to be taken to the Contact Us section immediately. Alternatively the user can scroll down to the Contact Us section.
+    - When viewing the Contact Us section the user is invited to complete a simple form. If any of the fields haven't been completed or have been completed incorrectly the browser notifies the user of this when they try to submit the form when clicking the Submit button.
+    - If the form is completed correctly and then submitted, the Code Institute Form Dump page appears correcty. 
+- _As a user I would like to see the general area the company provides its services to:_
+    - From within the Contact Us section the user can see a map of the general area the company provides its services to.
 
-### Owner Goals
+### Owner Goals Testing
 
-  As the owner I would like:
-    - to increase the company's online presence.
-    - the users of my website to have planty of calls to action.
-    - the users to be prompted to make contact to ask any questions they may have or to request a quote for some work they require.
-    - to provide clear and concise information about the company and its services. 
-    - customers to be able to find us on various social media sites.
+- _As the owner I would like to increase the company's online presence:_
+    - By having this website live and functioning the company's online presence will have the potential to increase. 
+    - Within the footer section links to the company's social media pages are available to be clicked upon which could have an impact on the company's online presence.
+- _As the owner I would like the users of my website to have planty of calls to action:_
+    - There is an immediate call to action on the home/landing page in the form of a button which, when clicked, takes the user to the Contact Us section,
+    - The header is always and contains navigation links for easy access to all of the sections of the site.
+- _As the owner I would like the users to be prompted to make contact to ask any questions they may have or to request a quote for some work they require:_
+    - The user is immediately promted to make contact with the company when the website is first landed upon. 
+- _As the owner I would like to provide clear and concise information about the company and its services:_
+    - Within the About Us and Services sections there is clear and concise information about the company itself and the services it offers which are easily visible to the user.
+- _As the owner I would like customers to be able to find us on various social media sites:_
+    - Within the footer there are links to the company's various social media pages which the user can click on.
 
 ## Technologies Used
 
