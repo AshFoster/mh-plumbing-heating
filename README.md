@@ -86,9 +86,11 @@ The colour scheme used was based on the colours of the company's logo. The logo 
 
 It's a simple four colour palette which is shown in the following image:
 
-![Website's Colour Palette](assets/images/colour-scheme.jpg)
+![Website's Colour Palette](assets/images/colour-scheme2.jpg)
 
-The idea - other than the home page which will have a hero image - is that each section will alternate between using grey (#cccccc) as the background colour with black (#000000) text, and using blue (#0683C0) as the background with white (#ffffff) text. The reason for this is so that each section is obviously separate from its adjacent sections. In practice though, a couple of things needed changing in order for the website's appearance to flow properly down the page.
+The blue (#0978CE) colour was changed from a marginally lighter blue (#0683C0) due to contrast ratio issues that were discovered during the testing process. This is explained in a little more detail in the [Performance Testing](#performance-testing) section below.
+
+The idea - other than the home page which will have a hero image - is that each section will alternate between using grey (#cccccc) as the background colour with black (#000000) text, and using blue (#0978CE) as the background with white (#ffffff) text. The reason for this is so that each section is obviously separate from its adjacent sections. In practice though, a couple of things needed changing in order for the website's appearance to flow properly down the page.
 
 Firstly, I wanted the header and footer to both have a grey background colour. This combined with wanting each section to have a different background colour to its adjacent sections meant that the order and colour of each section had to be very specific. I also felt that certain sections were more suited to a grey background, whilst others were more suited to a blue background. 
 
@@ -190,7 +192,9 @@ For the hero image I chose an image that I felt appeared to showcase the company
 
 - __Google Chrome Lighthouse__
 
-I audited the website for mobile and desktop using Google Chrome's lighthouse feature; results as follows:
+I audited the website for mobile and desktop using Google Chrome's lighthouse feature. At first the performance and accessibility scores weren't good enough. The low performance was due to image sizes being too large which was easily solved by reducing the image sizes appropriately using [Online Image Resizer](https://resizeimage.net/). The accessibility issues were due to contrast ratio issues with the original blue (#0683C0) backgroud colour and the white (#ffffff) foreground colour in some of the sections. This was easily solved by putting the relevant colours into the [WebAIM: Contrast Checker](https://webaim.org/resources/contrastchecker/) and adjusting the blue colour slightly until the minimum contrast ratio was met. Fortunatley the colour did not need too much tweaking, meaning that the change is barely noticable and does not affect the originally intended appearance of the website.
+
+The final lighthouse scores are as follows:
 
   - Mobile
 
@@ -239,6 +243,45 @@ I audited the website for mobile and desktop using Google Chrome's lighthouse fe
     - Within the About Us and Services sections there is clear and concise information about the company itself and the services it offers which are easily visible to the user.
 - _As the owner I would like customers to be able to find us on various social media sites:_
     - Within the footer there are links to the company's various social media pages which the user can click on.
+
+### Device Compatibility Testing
+
+To test the site's compatibility across a range of devices I used [Responsinator](https://www.responsinator.com/) and went through all of the user and owner goals on each device it includes in both portrait and landscape modes. The devices included are as follows:
+
+  - iPhone X
+  - Pixel 2
+  - iPhone 6-8
+  - iPhone 6-8 Large Version
+  - iPad
+
+Chrome Dev Tools was also used to check the site's compatibility across a range of other devices also in both portrait and landscape modes. These devices include:
+
+  - Ipad Pro
+  - Galaxy Fold (which has a very narrow viewport of only 280px in portrait mode)
+
+A regular desktop monitor was used in various resolutions to check that the site remains to look and act as expected on larger screens. The resolutions include: 1366 x 768 and 1920 x 1080.
+
+Actual mobile devices belonging to family and friends were also used for testing which include the following:
+
+  - iPhone 7
+  - Pixel 4
+  - S10 Plus
+
+On all devices used for testing, whether real or simulated, the site looked and functioned as expected and all of the user and owner goals were met to a standard I was happy with.
+
+### Browser Compatibility Testing
+
+Google Chrome was used for the majority of testing during the development process, but once development had neared an end some other browsers were used for testing to make sure the site has cross browser compatibility. The full list of browsers used for testing are as follows:
+
+  - Chrome
+  - Internet Explorer 11
+  - Edge
+  - Firefox
+  - Safari
+
+### Bugs
+
+#### Known Bugs
 
 ## Technologies Used
 
