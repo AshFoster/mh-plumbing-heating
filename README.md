@@ -6,19 +6,29 @@
 
 ## Contents
 
-[Overview](#overview)
-
-[User Experience (UX)](#user-experience)
-
-[Features](#features)
-
-[Testing](#testing)
-
-[Deployment](#deployment)
-
-[Technologies Used](#technologies-used)
-
-[Credits](#credits)
+- [Overview](#overview)
+- [User Experience (UX)](#user-experience)
+    - [Strategy Plane](#strategy-plane)
+    - [Scope Plane](#scope-plane)
+    - [Structure Plane](#structure-plane)
+    - [Skeleton Plane](#skeleton-plane)
+    - [Surface Plane](#surface-plane)
+- [Features](#features)
+    - [Existing Features](#existing-features)
+- [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Performance Testing](#performance-testing)
+    - [User Goals Testing](#user-goals-testing)
+    - [Owner Goals Testing](#owner-goals-testing)
+    - [Device and Browser Compatibility Testing](#device-and-browser-compatibility-testing)
+    - [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Online Resources](#online-resources)
+- [Credits](#credits)
+    - [Code](#code)
+    - [Media](#media)
 
 ## Overview
 
@@ -78,7 +88,7 @@ The basic structure of the site - from top to bottom - is as follows:
 
 These are outlined in more detail in the [Features](#features) section below.
 
-Originally I had planned to have the Gallery just above the Testimonials section (which can be see in the [wireframes](#wireframes)) rather than the other way round. The reason I swapped the order was due to how the colours of each section looked in that particular order. This is explained in more detail in the [Colour Scheme](#colour-scheme) section below.  
+Originally I had planned to have the Gallery just above the Testimonials section (which can be seen in the [wireframes](#wireframes)) rather than the other way round. The reason I swapped the order was due to how the colours of each section looked in that particular order. This is explained in more detail in the [Colour Scheme](#colour-scheme) section below.  
 
 ### Skeleton Plane
 
@@ -294,7 +304,7 @@ On all devices and browsers used for testing, whether real or simulated, the sit
 
   - When using Edge, Internet Explorer, and some of the real mobile devices, the smooth scroll behaviour that's been set to apply when using the site's navigation links, doesn't actually work, and instead the user is instantly taken to the relevant section without any transition. This is not too much of a big deal, but it is not the desired behaviour.
 
-  - When filling in the Contact Us form on mobile devices the browser automatically zooms in and focuses on the relevant field, and a virtual keyboard appears taking up over half of the screen. Luckily the browser also hides the site's fixed header which allows the user to be able to see the relevant form field(s). When in landscape mode, though, an issue arises if the user scrolls up towards the top of the site whilst in this focused state . This causes the header to appear again, which when combined with the pop-up keyboard, hides the form entirely. It's not too much of a problem as the header disappears again when scrolling back down, and it's not a particularly likely scenario but since I observed it I thought it was worth mentioning.
+  - When filling in the Contact Us form on mobile devices the browser automatically zooms in and focuses on the relevant field, and a virtual keyboard appears taking up over half of the screen. Luckily the browser also hides the site's fixed header which allows the user to be able to see the relevant form field(s). When in landscape mode, though, an issue arises if the user scrolls up towards the top of the site whilst in this focused state. This causes the header to appear again, which when combined with the pop-up keyboard, hides the form entirely. It's not too much of a problem as the header disappears again when scrolling back down, and it's not a particularly likely scenario but since I observed it I thought it was worth mentioning.
 
       ![Form Zoom Example](assets/images/form-zoom-landscape.jpg)
 
@@ -321,28 +331,26 @@ The site has been deployed to GitHub pages. The steps followed in doing so are a
 
 ### Online Resources
 
-  - [Git](https://en.wikipedia.org/wiki/Git)
-  - [GitPod](https://www.gitpod.io/)
-  - [GitHub](https://github.com/)
-  - [Google Fonts](https://fonts.google.com/)
-  - [Font Awesome](https://fontawesome.com/)
-  - [Online Image Resizer](https://resizeimage.net/)
-  - [WebAIM: Contrast Checker](https://webaim.org/resources/contrastchecker/)
-  - [Colormind](http://colormind.io/)
+  - [Git](https://en.wikipedia.org/wiki/Git) - for version control.
+  - [GitPod](https://www.gitpod.io/) - the online IDE (Integrated Development Environment) used for development.
+  - [GitHub](https://github.com/) - used as an online code repository and for deployment.
+  - [Google Fonts](https://fonts.google.com/) - for the fonts used throughout the site.
+  - [Font Awesome](https://fontawesome.com/) - for the icons used throughout the site.
+  - [Online Image Resizer](https://resizeimage.net/) - for resizing images to improve site's performance.
+  - [WebAIM: Contrast Checker](https://webaim.org/resources/contrastchecker/) - to check contrast ratios of chosen colours.
+  - [Colormind](http://colormind.io/) - used to obtain colour palette image.
 
 ## Credits
 
 ### Code
 
-  - [CSS-Tricks](https://css-tricks.com/hash-tag-links-padding/)
+  - [CSS-Tricks](https://css-tricks.com/hash-tag-links-padding/) - provided idea for using "before" pseudo element on sections so when navigating to each section the fixed header doesn't cover the section title.
   - [YouTube](https://www.youtube.com/)
-      - [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA)
-      - [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY)
-      - [K2classroom](https://www.youtube.com/watch?v=1vwtg8qhs4o)
+      - [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA) - provided idea for using hidden checkbox and label for showing/hiding the menu with the hamburger icon.
+      - [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY) - provided initial idea of testimonial style.
+      - [K2classroom](https://www.youtube.com/watch?v=1vwtg8qhs4o) - provided idea for overall style of the gallery section.
   - [Code Institute's Full Stack Developer Course](https://codeinstitute.net/)
-      - My mentor Antonio Rodriguez
-  - [W3Schools](https://www.w3schools.com/)
-  - [Stack Overflow](https://stackoverflow.com/)
+      - My mentor Antonio Rodriguez - helped with javascript that shows/hides the menu with the hamburger icon.
 
 ### Media
 
