@@ -4,6 +4,22 @@
 
 ![Am I Responsive Image](assets/images/am-i-responsive.jpg)
 
+## Contents
+
+[Overview](#overview)
+
+[User Experience (UX)](#user-experience)
+
+[Features](#features)
+
+[Testing](#testing)
+
+[Deployment](#deployment)
+
+[Technologies Used](#technologies-used)
+
+[Credits](#credits)
+
 ## Overview
 
 This is a website for a plumbing and heating business based in the north of England named Martin Harris Plumbing and Heating Ltd. It has been designed to showcase what the company has to offer, to be easy to navigate, and to be responsive across a range of popular devices.
@@ -12,7 +28,7 @@ Its primary focus is to allow its users to learn more about the company and what
 
 It has an immediate call to action in the form of a button that takes the user to the contact us form. It also allows users to see testimoniamls from previous customers, and to see an image gallery of some the work the company has previously completed.
 
-## User Experience (UX)
+## User Experience
 
 The five planes of user experience were considered during the design phase of this website, which are all outlined below.
 
@@ -22,25 +38,23 @@ Here, the user goals are considered and outlined with the aim of having a clear 
 
 The website's owner's goals are also considered, and when combined with the user goals, will provide ideas for potential features for the website.
 
-- __User Goals__
+#### User Goals
+  - __As a user I would like to:__
+      - easily navigate across the website.
+      - be able to find more out about the company and its history.
+      - be able read about what services are on offer.
+      - see some testimonials from previous customers.
+      - see images of the sort of work the company has done previously. 
+      - easily be able to find out how to make contact with the company.
+      - see the general area the company provides its services to.
 
-  As a user I would like to:
-  - easily navigate across the website.
-  - be able to find more out about the company and its history.
-  - be able read about what services are on offer.
-  - see some testimonials from previous customers.
-  - see images of the sort of work the company has done previously. 
-  - easily be able to find out how to make contact with the company.
-  - see the general area the company provides its services to.
-
-- __Owner Goals__
-
-  As the owner I would like:
-  - to increase the company's online presence.
-  - the users of my website to have planty of calls to action.
-  - the users to be prompted to make contact to ask any questions they may have or to request a quote for some work they require.
-  - to provide clear and concise information about the company and its services. 
-  - customers to be able to find us on various social media sites.
+#### Owner Goals
+  - __As the owner I would like:__
+    - to increase the company's online presence.
+    - the users of my website to have planty of calls to action.
+    - the users to be prompted to make contact to ask any questions they may have or to request a quote for some work they require.
+    - to provide clear and concise information about the company and its services. 
+    - customers to be able to find us on various social media sites.
 
 ### Scope Plane
 
@@ -276,17 +290,26 @@ On all devices and browsers used for testing, whether real or simulated, the sit
 
 ### Bugs
 
-#### Known Bugs
+#### Unfixed Bugs
 
   - When using Edge, Internet Explorer, and some of the real mobile devices, the smooth scroll behaviour that's been set to apply when using the site's navigation links, doesn't actually work, and instead the user is instantly taken to the relevant section without any transition. This is not too much of a big deal, but it is not the desired behaviour.
 
   - When filling in the Contact Us form on mobile devices the browser automatically zooms in and focuses on the relevant field, and a virtual keyboard appears taking up over half of the screen. Luckily the browser also hides the site's fixed header which allows the user to be able to see the relevant form field(s). When in landscape mode, though, an issue arises if the user scrolls up towards the top of the site whilst in this focused state . This causes the header to appear again, which when combined with the pop-up keyboard, hides the form entirely. It's not too much of a problem as the header disappears again when scrolling back down, and it's not a particularly likely scenario but since I observed it I thought it was worth mentioning.
 
-  Before Scrolling | After Scrolling
-  - | -
-  ![Form Zoom Example 1](assets/images/form-zoom-landscape1.png) | ![Form Zoom Example 2](assets/images/form-zoom-landscape2.png)
+      ![Form Zoom Example](assets/images/form-zoom-landscape.jpg)
 
-  - Another issue I discovered was to do with the hamburger menu functionality. With the help of [Kevin Powell's YouTube video](https://www.youtube.com/watch?v=8QKOaTYvYUA), using only CSS I added a working hamburger stlye menu for use on smaller devices to the site. It was working as expected - the menu appeared or disappeared when clicked - but the menu didn't disappear when any of the links were clicked. I felt this might be an issue for some users, and wasn't the desired functionality. I therefore mentioned this to my mentor who subsequently helped me to add some javascript in order to tackle this issue. The menu now disappears when the links are clicked, but another issue has arisen instead, though of lesser value. Now, when the menu is in a visible state, if the hamburger icon is clicked with the intent of closing the menu, it no longer has this functionality. The user must instead click on one of the menu's links for the menu to disappear. Again, not perfect functionality, but better thatn before. So for the purposes of this project I beleive it to be ok, and probably not worth delving deeper into javascript to fix it just yet.
+  - Another issue I discovered was to do with the hamburger menu functionality. With the help of [Kevin Powell's YouTube video](https://www.youtube.com/watch?v=8QKOaTYvYUA), using only CSS I added a working hamburger stlye menu for use on smaller devices to the site. It was working as expected - the menu appeared or disappeared when clicked - but the menu didn't disappear when any of the links were clicked. I felt this might be an issue for some users, and wasn't the desired functionality. I therefore mentioned this to my mentor who subsequently helped me to add some javascript in order to tackle this issue. The menu now disappears when the links are clicked, but another issue has arisen instead, though of lesser value. Now, when the menu is in a visible state, if the hamburger icon is clicked with the intent of closing the menu, it no longer has this functionality. The user must instead click on one of the menu's links for the menu to disappear. Again, not perfect functionality, but better than before. So for the purposes of this project I believe it to be ok, and probably not worth delving deeper into javascript to fix it just yet.
+
+## Deployment
+
+The site has been deployed to GitHub pages. The steps followed in doing so are as follows:
+  1. Go to the project's GitHub repository.
+  2. Select the Settings tab near the top of the page on the right hand side.
+  3. Select Pages from the list of options running down the left hand side.
+  4. Locate the Source section's drop-down menu and select the Master Branch.
+  5. This will cause the page to refresh, now displaying a ribbon indicating successful deployment with a link to the deployed site.
+
+[Here's a link to the live site.](https://ashfoster.github.io/mh-plumbing-heating/) 
 
 ## Technologies Used
 
@@ -294,8 +317,33 @@ On all devices and browsers used for testing, whether real or simulated, the sit
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - [CSS3](https://en.wikipedia.org/wiki/CSS)
+  - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Very minimal use. Only to show/hide hamburger menu on small devices.
 
 ### Online Resources
 
+  - [Git](https://en.wikipedia.org/wiki/Git)
+  - [GitPod](https://www.gitpod.io/)
+  - [GitHub](https://github.com/)
   - [Google Fonts](https://fonts.google.com/)
   - [Font Awesome](https://fontawesome.com/)
+  - [Online Image Resizer](https://resizeimage.net/)
+  - [WebAIM: Contrast Checker](https://webaim.org/resources/contrastchecker/)
+  - [Colormind](http://colormind.io/)
+
+## Credits
+
+### Code
+
+  - [CSS-Tricks](https://css-tricks.com/hash-tag-links-padding/)
+  - [YouTube](https://www.youtube.com/)
+      - [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA)
+      - [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY)
+      - [K2classroom](https://www.youtube.com/watch?v=1vwtg8qhs4o)
+  - [Code Institute's Full Stack Developer Course](https://codeinstitute.net/)
+      - My mentor Antonio Rodriguez
+  - [W3Schools](https://www.w3schools.com/)
+  - [Stack Overflow](https://stackoverflow.com/)
+
+### Media
+
+  - The logo and all images were provided by the company's owner. 
