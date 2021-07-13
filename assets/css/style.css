@@ -362,7 +362,7 @@ header {
 }
 
 .gallery-thumbnails {
-    padding: 1% 0;
+    padding: 1vh 0;
     text-align: center;
     
 }
@@ -370,13 +370,14 @@ header {
 .gallery-thumbnails-image {
     width: 80%;
     max-width: 200px;
-    margin: 0 .5%;
+    margin: 0 .5vw;
 }
 
 .gallery-thumbnails-image img {
     display: inline-block;
     height: 8vw;
-    max-height: 50px;
+    max-height: 8vh;
+    min-height: 10px;
     border-radius: 5px;
 }
 
@@ -452,6 +453,12 @@ header {
 
 .contact-us-form textarea {
     height: auto;
+}
+
+.form-font {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
 }
 
 .submit-button {

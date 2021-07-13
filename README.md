@@ -190,19 +190,17 @@ For the hero image I chose an image that I felt appeared to showcase the company
 
 ### Performance Testing
 
-- __Google Chrome Lighthouse__
-
 I audited the website for mobile and desktop using Google Chrome's lighthouse feature. At first the performance and accessibility scores weren't good enough. The low performance was due to image sizes being too large which was easily solved by reducing the image sizes appropriately using [Online Image Resizer](https://resizeimage.net/). The accessibility issues were due to contrast ratio issues with the original blue (#0683C0) backgroud colour and the white (#ffffff) foreground colour in some of the sections. This was easily solved by putting the relevant colours into the [WebAIM: Contrast Checker](https://webaim.org/resources/contrastchecker/) and adjusting the blue colour slightly until the minimum contrast ratio was met. Fortunatley the colour did not need too much tweaking, meaning that the change is barely noticable and does not affect the originally intended appearance of the website.
 
 The final lighthouse scores are as follows:
 
   - Mobile
 
-  ![Mobile Lighthouse](assets/images/lighthouse-mobile.jpg)
+  ![Mobile Lighthouse](assets/images/lighthouse-mobile2.jpg)
 
   - Desktop
 
-  ![Desktop Lighthouse](assets/images/lighthouse-desktop.jpg)
+  ![Desktop Lighthouse](assets/images/lighthouse-desktop2.jpg)
 
 ### User Goals Testing
 
@@ -244,7 +242,7 @@ The final lighthouse scores are as follows:
 - _As the owner I would like customers to be able to find us on various social media sites:_
     - Within the footer there are links to the company's various social media pages which the user can click on.
 
-### Device Compatibility Testing
+### Device and Browser Compatibility Testing
 
 To test the site's compatibility across a range of devices I used [Responsinator](https://www.responsinator.com/) and went through all of the user and owner goals on each device it includes in both portrait and landscape modes. The devices included are as follows:
 
@@ -259,29 +257,36 @@ Chrome Dev Tools was also used to check the site's compatibility across a range 
   - Ipad Pro
   - Galaxy Fold (which has a very narrow viewport of only 280px in portrait mode)
 
-A regular desktop monitor was used in various resolutions to check that the site remains to look and act as expected on larger screens. The resolutions include: 1366 x 768 and 1920 x 1080.
-
 Actual mobile devices belonging to family and friends were also used for testing which include the following:
 
   - iPhone 7
   - Pixel 4
   - S10 Plus
 
-On all devices used for testing, whether real or simulated, the site looked and functioned as expected and all of the user and owner goals were met to a standard I was happy with.
+A desktop monitor was also used for testing with a couple of different resolutions to check that the site remains to look and act as expected on larger screens. The resolutions were: 1366 x 768 and 1920 x 1080.
 
-### Browser Compatibility Testing
-
-Google Chrome was used for the majority of testing during the development process, but once development had neared an end some other browsers were used for testing to make sure the site has cross browser compatibility. The full list of browsers used for testing are as follows:
+Google Chrome was the browser used for the majority of testing during the development process, but once development had neared an end some other browsers were used for testing to make sure the site had cross browser compatibility. The full list of browsers used for testing are as follows:
 
   - Chrome
   - Internet Explorer 11
   - Edge
   - Firefox
-  - Safari
+
+On all devices and browsers used for testing, whether real or simulated, the site looks and functions as expected, other than some small issues which are outlined in the [Bugs](#bugs) section below. Despite these, all of the user and owner goals are met to a standard I am happy with.
 
 ### Bugs
 
 #### Known Bugs
+
+  - When using Edge, Internet Explorer, and some of the real mobile devices, the smooth scroll behaviour that's been set to apply when using the site's navigation links, doesn't actually work, and instead the user is instantly taken to the relevant section without any transition. This is not too much of a big deal, but it is not the desired behaviour.
+
+  - When filling in the Contact Us form on mobile devices the browser automatically zooms in and focuses on the relevant field, and a virtual keyboard appears taking up over half of the screen. Luckily the browser also hides the site's fixed header which allows the user to be able to see the relevant form field(s). When in landscape mode, though, an issue arises if the user scrolls up towards the top of the site whilst in this focused state . This causes the header to appear again, which when combined with the pop-up keyboard, hides the form entirely. It's not too much of a problem as the header disappears again when scrolling back down, and it's not a particularly likely scenario but since I observed it I thought it was worth mentioning.
+
+  Before Scrolling | After Scrolling
+  - | -
+  ![Form Zoom Example 1](assets/images/form-zoom-landscape1.png) | ![Form Zoom Example 2](assets/images/form-zoom-landscape2.png)
+
+  - Another issue I discovered was to do with the hamburger menu functionality. With the help of [Kevin Powell's YouTube video](https://www.youtube.com/watch?v=8QKOaTYvYUA), using only CSS I added a working hamburger stlye menu for use on smaller devices to the site. It was working as expected - the menu appeared or disappeared when clicked - but the menu didn't disappear when any of the links were clicked. I felt this might be an issue for some users, and wasn't the desired functionality. I therefore mentioned this to my mentor who subsequently helped me to add some javascript in order to tackle this issue. The menu now disappears when the links are clicked, but another issue has arisen instead, though of lesser value. Now, when the menu is in a visible state, if the hamburger icon is clicked with the intent of closing the menu, it no longer has this functionality. The user must instead click on one of the menu's links for the menu to disappear. Again, not perfect functionality, but better thatn before. So for the purposes of this project I beleive it to be ok, and probably not worth delving deeper into javascript to fix it just yet.
 
 ## Technologies Used
 
